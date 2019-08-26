@@ -1,0 +1,1161 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:500,300,400');
+
+@font-face {
+                          font-family: "SofiaProRegular";
+                          src: url('../fonts/SofiaProRegular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProUltraLight";
+                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProSemiBold";
+                          src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "OpenSans-Regular";
+                          src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProBold";
+                          src: url('../fonts/SofiaProBold.ttf') format("truetype");
+                        }
+                        
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.project {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 724px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.project .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -80px;
+  height              : calc(100.00% + 433px);
+  width               : calc(100.00% + 221px);
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .background .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1157px;
+  width               : 1245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .background .group14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -148px;
+  height              : 1399px;
+  width               : 2046px;
+  position            : absolute;
+  margin              : 0;
+  left                : -252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 55px;
+  width               : 172px;
+  position            : fixed;
+  margin              : 0;
+  left                : 50px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.project .logo:hover {
+  transform           : scale(0.9);
+}
+.project .logo .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .logo .kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : fixed;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 40.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : center;
+  line-height         : 57.0px;
+}
+.project .menu {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 76px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .menu-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 57px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.project .menu .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .menu .menu1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 10.5px;
+  line-height         : 43.0px;
+}
+.project .menu .menu1:hover {
+  transform           : scale(0.9);
+}
+.project .viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 39px;
+  top                 : 30px;
+  height              : 57px;
+  width               : 276px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.project .viewproject:hover {
+  transform           : scale(0.9);
+}
+.project .viewproject .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .viewproject .viewprojects {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 10.5px;
+  line-height         : 43.0px;
+}
+.project .aboutbl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 127px;
+  width               : 206px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .aboutbl .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .aboutbl .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .aboutbl .group2 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 49.51%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .aboutbl .group2 .group1 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44.88%;
+  height              : 2.36%;
+  width               : 41.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .aboutbl .group2 .group1 .about {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -37.25%;
+  top                 : calc(50.00% - 26px);
+  height              : 51px;
+  width               : 123.53%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 13.0px;
+  line-height         : 51.0px;
+}
+.project .aboutbl .group2 .downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 17.48%;
+  top                 : 3.94%;
+  height              : 82.68%;
+  width               : 15.53%;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.project .aboutbl .group2 .downinteraction .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .aboutbl .group2 .downinteraction .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .aboutbl .group2 .downinteraction .group3 .path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .aboutbl .group2 .downinteraction .group3 .triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.project .skillsbl {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 336px;
+  height              : 127px;
+  width               : 206px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .skillsbl .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .skillsbl .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 139px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .skillsbl .group1 .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.98%;
+  top                 : 43.17%;
+  height              : 2.16%;
+  width               : 41.18%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .skillsbl .group1 .skills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 26px);
+  height              : 51px;
+  width               : 136.27%;
+  position            : absolute;
+  margin              : 0;
+  left                : -43.14%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 13.0px;
+  line-height         : 51.0px;
+}
+.project .skillsbl .downinteractionbl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  overflow            : hidden;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.project .skillsbl .downinteractionbl .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .skillsbl .downinteractionbl .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .skillsbl .downinteractionbl .group2 .path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .skillsbl .downinteractionbl .group2 .triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.project .group {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  pointer-events      : auto;
+  height              : 642px;
+  width               : 954px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.project .group .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 542px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.project .group .group2:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.project .group .group2 .a01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 80.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  letter-spacing      : -2.74px;
+  line-height         : 115.0px;
+}
+.project .group .group2 .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : 450px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group2 .group8 .rectangle {
+  background-color    : rgba(13, 13, 11, 1.0);
+  top                 : 0px;
+  height              : 450px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group2 .group8 .artboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 369px;
+  width               : 209px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group2 .group8 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 107px;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group2 .group8 .group7 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 107px;
+  width               : 166px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group2 .group8 .group7 .group1 .bushi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 50.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 72.0px;
+}
+.project .group .group2 .group8 .group7 .group1 .illustration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : auto;
+  width               : 145px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.project .group .group21 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 280px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.project .group .group21-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 100px;
+  align-items         : center;
+  height              : 542px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.project .group .group21:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.project .group .group21 .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : 450px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group21 .group8 .deer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 450px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group21 .group8 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 107px;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group21 .group8 .group7 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 107px;
+  width               : 166px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group21 .group8 .group7 .group1 .deer1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 50.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 72.0px;
+}
+.project .group .group21 .group8 .group7 .group1 .illustration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : auto;
+  width               : 145px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.project .group .group21 .a02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 80.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  letter-spacing      : -2.74px;
+  line-height         : 115.0px;
+}
+.project .group .group22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 542px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 674px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.project .group .group22:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.project .group .group22 .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : 450px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group22 .group8 .rectangle {
+  background-color    : rgba(226, 227, 231, 1.0);
+  top                 : 0px;
+  height              : 450px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group22 .group8 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 107px;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group22 .group8 .group7 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 107px;
+  width               : 166px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .group .group22 .group8 .group7 .group1 .smartkey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 50.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 72.0px;
+}
+.project .group .group22 .group8 .group7 .group1 .mobileapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : auto;
+  width               : 145px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.project .group .group22 .a03 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 80.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  letter-spacing      : -2.74px;
+  line-height         : 115.0px;
+}
+.project .socialbl {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 15px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.project .socialbl .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl .group5 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl .group5 .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl .group6 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl .group6 .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl .group7 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.project .socialbl .group7 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

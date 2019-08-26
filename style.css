@@ -1,0 +1,24 @@
+body {
+  padding:0;
+  margin: 0;
+}
+
+.canvas,
+.container,
+.background-layout-container {
+  width: 100%;
+  height: 1024px;
+}
+
+
+.container {
+  margin-top:-50px;
+  margin-bottom:-250px;
+}
+.container,
+.container-blocker {
+  overflow:auto;
+  position: absolute;
+  display: block;
+  height:1024px;
+}

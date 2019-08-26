@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:500,300,400');
+
+@font-face {
+                          font-family: "SofiaProRegular";
+                          src: url('../fonts/SofiaProRegular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProUltraLight";
+                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProSemiBold";
+                          src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "OpenSans-Regular";
+                          src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProBold";
+                          src: url('../fonts/SofiaProBold.ttf') format("truetype");
+                        }
+                        
+.endempty {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 724px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(0, 0, 0, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.endempty .block {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 814px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 288px;
+  align-items         : center;
+  height              : calc(100.00% - 397px);
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.endempty .block .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 208px;
+  height              : 119px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 318px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.endempty .block .textlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 183px;
+  width               : 814px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 130px;
+  width               : 812px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 127px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 184px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .combinedshape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 375px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .combinedshape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 432px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 499px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 569px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .combinedshape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 620px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 680px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .color .combinedshape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 745px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .kseniapavlova2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 130px;
+  width               : 812px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .path:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 127px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .path1:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 184px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .path2:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .path3:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape1:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 375px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape2:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 432px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape3:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 499px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .path4:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 569px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .path5:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 620px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape4:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 680px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .path6:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 129px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 745px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s linear;
+}
+.endempty .block .textlogo .kseniapavlova2 .combinedshape5:hover {
+  opacity             : 0;
+}
+.endempty .block .textlogo .digitaldesigner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 158px;
+  height              : auto;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 678px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(241, 240, 240, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.01px;
+  line-height         : 23.0px;
+}
+.endempty .duetosomereasons {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProUltraLight", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(241, 240, 240, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.01px;
+  line-height         : 24.0px;
+}
+.endempty .duetosomereasons-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 50px;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

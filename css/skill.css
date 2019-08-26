@@ -1,0 +1,1150 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:500,300,400');
+
+@font-face {
+                          font-family: "SofiaProRegular";
+                          src: url('../fonts/SofiaProRegular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProUltraLight";
+                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProSemiBold";
+                          src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "OpenSans-Regular";
+                          src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProBold";
+                          src: url('../fonts/SofiaProBold.ttf') format("truetype");
+                        }
+                        
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.skill {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 724px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.skill .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -80px;
+  height              : calc(100.00% + 1157px);
+  width               : calc(100.00% + 221px);
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .background .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1881px;
+  width               : 1245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .background .group14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -239px;
+  height              : 2271px;
+  width               : 2046px;
+  position            : absolute;
+  margin              : 0;
+  left                : -252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 55px;
+  width               : 172px;
+  position            : fixed;
+  margin              : 0;
+  left                : 50px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.skill .logo:hover {
+  transform           : scale(0.9);
+}
+.skill .logo .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .logo .kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : fixed;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 40.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : center;
+  line-height         : 57.0px;
+}
+.skill .menu {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 76px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .menu-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 57px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.skill .menu .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .menu .menu1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 10.5px;
+  line-height         : 43.0px;
+}
+.skill .menu .menu1:hover {
+  transform           : scale(0.9);
+}
+.skill .viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 27px;
+  top                 : 30px;
+  height              : 57px;
+  width               : 276px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.skill .viewproject:hover {
+  transform           : scale(0.9);
+}
+.skill .viewproject .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .viewproject .viewprojects {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 10.5px;
+  line-height         : 43.0px;
+}
+.skill .aboutbl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 127px;
+  width               : 206px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .aboutbl .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .aboutbl .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .aboutbl .group2 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 49.51%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .aboutbl .group2 .group1 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44.88%;
+  height              : 2.36%;
+  width               : 41.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .aboutbl .group2 .group1 .about {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -37.25%;
+  top                 : calc(50.00% - 26px);
+  height              : 51px;
+  width               : 123.53%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 13.0px;
+  line-height         : 51.0px;
+}
+.skill .aboutbl .group2 .downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 17.48%;
+  top                 : 3.94%;
+  height              : 82.68%;
+  width               : 15.53%;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.skill .aboutbl .group2 .downinteraction .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .aboutbl .group2 .downinteraction .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .aboutbl .group2 .downinteraction .group3 .path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .aboutbl .group2 .downinteraction .group3 .triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.skill .socialbl {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 15px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.skill .socialbl .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl .group5 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl .group5 .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl .group6 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl .group6 .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl .group7 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .socialbl .group7 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  pointer-events      : auto;
+  height              : 668px;
+  width               : 1080px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.skill .group .skill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 322px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 758px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 322px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill2 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 6.52%;
+  top                 : 21px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(9deg); /* IE 9 */
+  -webkit-transform   : rotate(9deg); /* Chrome, Safari, Opera */
+  transform           : rotate(9deg);
+  transition          : all 0.2s ease-in-out;
+}
+.skill .group .skill2 .group2:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.skill .group .skill2 .group2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill2 .group2 .rectangle2 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill2 .group2 .rectangle2 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 250px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill2 .group2 .rectangle2 .ui {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 267px;
+  width               : 267px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill2 .group2 .uidesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : 72px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 346px;
+  height              : 322px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 704px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill4 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 322px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill4 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(9deg); /* IE 9 */
+  -webkit-transform   : rotate(9deg); /* Chrome, Safari, Opera */
+  transform           : rotate(9deg);
+  transition          : all 0.2s ease-in-out;
+}
+.skill .group .skill4 .group2:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.skill .group .skill4 .group2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill4 .group2 .rectangle2 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill4 .group2 .rectangle2 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 250px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill4 .group2 .rectangle2 .a3d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 228px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill4 .group2 .a3dmodeling {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : 72px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 346px;
+  height              : 322px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 322px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill3 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.58%;
+  -ms-transform       : rotate(9deg); /* IE 9 */
+  -webkit-transform   : rotate(9deg); /* Chrome, Safari, Opera */
+  transform           : rotate(9deg);
+  transition          : all 0.2s ease-in-out;
+}
+.skill .group .skill3 .group2:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.skill .group .skill3 .group2 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill3 .group2 .group1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill3 .group2 .group1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 250px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill3 .group2 .group1 .development1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 228px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill3 .group2 .development {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : 72px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 322px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 322px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill1 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.27%;
+  -ms-transform       : rotate(9deg); /* IE 9 */
+  -webkit-transform   : rotate(9deg); /* Chrome, Safari, Opera */
+  transform           : rotate(9deg);
+  transition          : all 0.2s ease-in-out;
+}
+.skill .group .skill1 .group2:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.skill .group .skill1 .group2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill1 .group2 .rectangle2 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill1 .group2 .rectangle2 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 250px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill1 .group2 .rectangle2 .ux {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : 173px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill1 .group2 .uxdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : 72px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 173px;
+  height              : 322px;
+  width               : 322px;
+  position            : fixed;
+  margin              : 0;
+  left                : 379px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill5 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 322px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill5 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(9deg); /* IE 9 */
+  -webkit-transform   : rotate(9deg); /* Chrome, Safari, Opera */
+  transform           : rotate(9deg);
+  transition          : all 0.2s ease-in-out;
+}
+.skill .group .skill5 .group2:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.skill .group .skill5 .group2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill5 .group2 .rectangle2 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill5 .group2 .rectangle2 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 250px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill5 .group2 .rectangle2 .illust {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 228px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skill .group .skill5 .group2 .illustration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : 72px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

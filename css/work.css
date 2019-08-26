@@ -1,0 +1,2119 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:500,300,400');
+
+@font-face {
+                          font-family: "SofiaProRegular";
+                          src: url('../fonts/SofiaProRegular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProUltraLight";
+                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProSemiBold";
+                          src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "OpenSans-Regular";
+                          src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProBold";
+                          src: url('../fonts/SofiaProBold.ttf') format("truetype");
+                        }
+                        
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.work {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 3345px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.work .backgroundwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 837px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .backgroundwork .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 837px;
+  width               : 1228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .backgroundwork .backgroundwork1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 837px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .backgroundwork .a6 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1432px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .backgroundwork .a6-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 124px;
+  align-items         : center;
+  height              : 648px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 835px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+}
+.work .namework {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 426px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .namework-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 294px;
+  align-items         : center;
+  height              : 251px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work .namework .bushi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 175.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 251.0px;
+}
+.work .illustration {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 41.0px;
+}
+.work .illustration-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 506px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work .menu {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 76px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .menu-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 57px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work .menu .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .menu .menu1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 10.5px;
+  line-height         : 43.0px;
+}
+.work .menu .menu1:hover {
+  transform           : scale(0.9);
+}
+.work .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 55px;
+  width               : 172px;
+  position            : fixed;
+  margin              : 0;
+  left                : 50px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.work .logo:hover {
+  transform           : scale(0.9);
+}
+.work .logo .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .logo .kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : fixed;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 40.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 57.0px;
+}
+.work .viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 39px;
+  top                 : 30px;
+  height              : 57px;
+  width               : 265px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.work .viewproject:hover {
+  transform           : scale(0.9);
+}
+.work .viewproject .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 265px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .viewproject .viewprojects {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 10.5px;
+  line-height         : 43.0px;
+}
+.work .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1673px;
+  height              : 852px;
+  width               : calc(100.00% + 56px);
+  position            : absolute;
+  margin              : 0;
+  left                : -28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1350px;
+  height              : 1072px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display2 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  position            : absolute;
+  top                 : 0px;
+  left                : 78px;
+  margin              : 0;
+  width               : calc(100.00% - 156px);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2510px;
+  height              : 835px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 835px;
+  width               : 1228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .appletv {
+  background-color    : rgba(255,255,255,0.0);
+  position            : absolute;
+  top                 : -6px;
+  left                : -1.22%;
+  margin              : 0;
+  width               : 102.61%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .a3434 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -252px;
+  top                 : 121px;
+  height              : 593px;
+  width               : 713px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 118px;
+  height              : 599px;
+  width               : 708px;
+  position            : absolute;
+  margin              : 0;
+  left                : -253px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 202px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  border-radius       : 101px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .rectangle3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 278px;
+  align-items         : center;
+  height              : 211px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work .display3 .group21 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 27px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 196px;
+  align-items         : center;
+  height              : 504px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work .display3 .group21 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 24px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 11px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : 11px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 21px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : 21px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 88px;
+  height              : 16px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 103px;
+  height              : 22px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 127px;
+  height              : 12px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 26px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 144px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 147px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 151px;
+  height              : 9px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 148px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 152px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 155px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 160px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 168px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 170px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 168px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 170px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 180px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 185px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path26 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 186px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path27 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 186px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path28 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path29 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 206px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path30 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 202px;
+  height              : 19px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 209px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 213px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path33 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 224px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 226px;
+  height              : 14px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path35 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 243px;
+  height              : 21px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path36 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 244px;
+  height              : 20px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 253px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path38 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 261px;
+  height              : 24px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path39 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 263px;
+  height              : 11px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 267px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 271px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path42 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 281px;
+  height              : 25px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 289px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 282px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 291px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path47 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 305px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path48 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 306px;
+  height              : 11px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path49 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 303px;
+  height              : 22px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path50 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 323px;
+  height              : 21px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path51 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 324px;
+  height              : 20px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path52 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 333px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path53 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 346px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path54 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 342px;
+  height              : 19px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path55 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 349px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path56 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 353px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path57 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 362px;
+  height              : 23px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path58 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 393px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path59 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 403px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path60 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 400px;
+  height              : 26px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path61 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 408px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path62 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 421px;
+  height              : 24px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path63 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 444px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path64 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 446px;
+  height              : 14px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path65 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 460px;
+  height              : 22px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path66 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 462px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path67 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 11px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path68 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 466px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path69 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 467px;
+  height              : 9px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path70 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 469px;
+  height              : 9px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path71 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 471px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path72 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 483px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path73 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 484px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path74 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 487px;
+  height              : 11px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path75 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 481px;
+  height              : 23px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .display3 .group21 .path76 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 493px;
+  height              : 11px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 838px;
+  height              : 835px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 608px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 16px);
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .downinteraction .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .downinteraction .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .downinteraction .group .path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .downinteraction .group .triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.work .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 832px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1096px;
+  align-items         : center;
+  height              : 374px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work .group2 .bushi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProSemiBold", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(60, 60, 60, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 72.0px;
+}
+.work .group2 .helloiu2019mdavidhel {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 99px;
+  height              : auto;
+  width               : 832px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(60, 60, 60, 1.0);
+  text-align          : left;
+  line-height         : 55.0px;
+}
+.work .previous {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 366px;
+  height              : 100px;
+  width               : 206px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .previous .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .previous .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 118px;
+  width               : 223px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .previous .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 101px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .previous .group .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42.57%;
+  height              : 2.97%;
+  width               : 40.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .previous .group .prev {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -24.27%;
+  top                 : calc(50.00% - 26px);
+  height              : 51px;
+  width               : 97.09%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 13.0px;
+  line-height         : 51.0px;
+}
+.work .previous .downinteraction1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  overflow            : hidden;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.work .previous .downinteraction1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .previous .downinteraction1 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .previous .downinteraction1 .group1 .path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .previous .downinteraction1 .group1 .triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.work .next {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 368px;
+  height              : 100px;
+  width               : 206px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .next .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .next .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 118px;
+  width               : 223px;
+  position            : absolute;
+  margin              : 0;
+  left                : -6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .next .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .next .group .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 42.42%;
+  height              : 3.03%;
+  width               : 40.38%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .next .group .next1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 26px);
+  height              : 51px;
+  width               : 94.23%;
+  position            : absolute;
+  margin              : 0;
+  left                : -22.12%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 13.0px;
+  line-height         : 51.0px;
+}
+.work .next .downinteraction1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  overflow            : hidden;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.work .next .downinteraction1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .next .downinteraction1 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .next .downinteraction1 .group1 .path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .next .downinteraction1 .group1 .triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.work .social {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 30px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work .social .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social .group5 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social .group5 .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social .group6 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social .group6 .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social .group7 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .social .group7 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 129px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.work .group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1541px;
+  align-items         : center;
+  height              : 46px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work .group3:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.work .group3 .rectangle3 {
+  background-color    : rgba(13, 13, 11, 1.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work .group3 .buy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.01px;
+  line-height         : 37.0px;
+}
+.work .group3 .buy .span1 {
+  
+}
+.work .group3 .buy .span2 {
+  letter-spacing      : 4.51px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
