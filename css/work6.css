@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:500,300,400');
+@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:300,400,500');
 
 @font-face {
-                          font-family: "SofiaProRegular";
-                          src: url('../fonts/SofiaProRegular.ttf') format("truetype");
-                        }
-                        @font-face {
-                          font-family: "SofiaProUltraLight";
-                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SofiaProSemiBold";
                           src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProRegular";
+                          src: url('../fonts/SofiaProRegular.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "OpenSans-Regular";
@@ -19,6 +15,10 @@
                         @font-face {
                           font-family: "SofiaProBold";
                           src: url('../fonts/SofiaProBold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProUltraLight";
+                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
                         }
                         
 .anima-overlay {
@@ -33,7 +33,7 @@
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
-  min-height          : 3345px;
+  min-height          : 3835px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -59,7 +59,7 @@ div {
 .work6 .backgroundwork {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 837px;
+  height              : 960px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
@@ -72,7 +72,7 @@ div {
 .work6 .backgroundwork .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 837px;
+  height              : 960px;
   width               : 1228px;
   position            : absolute;
   margin              : 0;
@@ -84,7 +84,7 @@ div {
 .work6 .backgroundwork .backgroundwork3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 837px;
+  height              : 960px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
@@ -96,7 +96,7 @@ div {
 .work6 .rectangle {
   background-color    : rgba(0, 0, 0, 1.0);
   top                 : 0px;
-  height              : 835px;
+  height              : 960px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
@@ -108,8 +108,8 @@ div {
 }
 .work6 .rectangle1 {
   background-color    : rgba(195, 195, 195, 1.0);
-  top                 : 1676px;
-  height              : 835px;
+  top                 : 1915px;
+  height              : 960px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
@@ -120,8 +120,8 @@ div {
 }
 .work6 .rectangle2 {
   background-color    : rgba(234, 234, 234, 1.0);
-  top                 : 2510px;
-  height              : 835px;
+  top                 : 2875px;
+  height              : 960px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
@@ -129,47 +129,6 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-}
-.work6 .namework {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 426px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work6 .namework-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 294px;
-  align-items         : center;
-  height              : 251px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.work6 .namework .bushi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Teko", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 175.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 251.0px;
 }
 .work6 .illustration {
   background-color    : rgba(255,255,255,0.0);
@@ -358,8 +317,8 @@ div {
 }
 .work6 .rectangle3 {
   background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 838px;
-  height              : 835px;
+  top                 : 955px;
+  height              : 960px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
@@ -869,7 +828,7 @@ div {
 .work6 .group2-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 1096px;
+  top                 : 1248px;
   align-items         : center;
   height              : 374px;
   width               : 100%;
@@ -878,7 +837,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work6 .group2 .bushi {
+.work6 .group2 .example {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -896,7 +855,7 @@ div {
   letter-spacing      : 2.0px;
   line-height         : 72.0px;
 }
-.work6 .group2 .helloiu2019mdavidhel {
+.work6 .group2 .helloaselftaught {
   background-color    : rgba(255,255,255,0.0);
   top                 : 99px;
   height              : auto;
@@ -912,6 +871,47 @@ div {
   color               : rgba(60, 60, 60, 1.0);
   text-align          : left;
   line-height         : 55.0px;
+}
+.work6 .namework {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 462px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.work6 .namework-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 294px;
+  align-items         : center;
+  height              : 251px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.work6 .namework .example {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 175.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 251.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

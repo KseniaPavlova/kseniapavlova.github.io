@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:500,300,400');
+@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:300,400,500');
 
 @font-face {
-                          font-family: "SofiaProRegular";
-                          src: url('../fonts/SofiaProRegular.ttf') format("truetype");
-                        }
-                        @font-face {
-                          font-family: "SofiaProUltraLight";
-                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SofiaProSemiBold";
                           src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProRegular";
+                          src: url('../fonts/SofiaProRegular.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "OpenSans-Regular";
@@ -19,6 +15,10 @@
                         @font-face {
                           font-family: "SofiaProBold";
                           src: url('../fonts/SofiaProBold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProUltraLight";
+                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
                         }
                         
 .anima-overlay {
@@ -33,7 +33,7 @@
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
-  min-height          : 2511px;
+  min-height          : 2862px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -59,7 +59,7 @@ div {
 .work2 .backgroundwork {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 837px;
+  height              : 960px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
@@ -72,7 +72,7 @@ div {
 .work2 .backgroundwork .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 837px;
+  height              : 960px;
   width               : 1228px;
   position            : absolute;
   margin              : 0;
@@ -84,7 +84,7 @@ div {
 .work2 .backgroundwork .backgroundwork1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 837px;
+  height              : 835px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
@@ -95,11 +95,11 @@ div {
 }
 .work2 .backgroundwork .deer {
   background-color    : rgba(255,255,255,0.0);
-  width               : 2209px;
-  margin-right        : -80px;
+  width               : 2289px;
+  margin-right        : 0px;
   height              : 100%;
   pointer-events      : auto;
-  margin-left         : 80px;
+  margin-left         : -0px;
   position            : relative;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
@@ -108,9 +108,9 @@ div {
 .work2 .backgroundwork .deer-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : -366px;
+  top                 : -365px;
   align-items         : center;
-  height              : 1564px;
+  height              : 1620px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -120,7 +120,7 @@ div {
 .work2 .rectangle {
   background-color    : rgba(0, 0, 0, 1.0);
   top                 : 0px;
-  height              : 835px;
+  height              : 960px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
@@ -144,7 +144,7 @@ div {
 .work2 .a2dis-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 1676px;
+  top                 : 1946px;
   align-items         : center;
   height              : 835px;
   width               : 100%;
@@ -550,7 +550,7 @@ div {
 }
 .work2 .rectangle1 {
   background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 838px;
+  top                 : 960px;
   height              : 835px;
   width               : calc(100.00% + 204px);
   position            : absolute;
@@ -573,9 +573,9 @@ div {
 .work2 .group2-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 1096px;
+  top                 : 1191px;
   align-items         : center;
-  height              : 374px;
+  height              : 319px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -600,7 +600,7 @@ div {
   letter-spacing      : 2.0px;
   line-height         : 72.0px;
 }
-.work2 .group2 .helloiu2019mdavidhel {
+.work2 .group2 .thisillustrationsh {
   background-color    : rgba(255,255,255,0.0);
   top                 : 99px;
   height              : auto;

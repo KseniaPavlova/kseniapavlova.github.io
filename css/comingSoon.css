@@ -29,11 +29,11 @@
   width               : 100%;
   height              : 100%;
 }
-.work4 {
+.comingsoon {
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
-  min-height          : 3835px;
+  min-height          : 724px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -56,24 +56,24 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.work4 .backgroundwork {
+.comingsoon .background {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 960px;
-  width               : calc(100.00% + 204px);
+  top                 : -80px;
+  height              : calc(100.00% + 433px);
+  width               : calc(100.00% + 221px);
   position            : absolute;
   margin              : 0;
-  left                : -102px;
+  left                : -111px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .backgroundwork .background {
+.comingsoon .background .mask {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 960px;
-  width               : 1228px;
+  height              : 1157px;
+  width               : 1245px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -81,185 +81,19 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .backgroundwork .backgroundwork3 {
+.comingsoon .background .group14 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 960px;
-  width               : calc(100.00% + 204px);
+  top                 : -148px;
+  height              : 1399px;
+  width               : 2046px;
   position            : absolute;
   margin              : 0;
-  left                : -102px;
+  left                : -252px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 960px;
-  width               : calc(100.00% + 204px);
-  position            : absolute;
-  margin              : 0;
-  left                : -102px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-}
-.work4 .rectangle1 {
-  background-color    : rgba(195, 195, 195, 1.0);
-  top                 : 1915px;
-  height              : 960px;
-  width               : calc(100.00% + 204px);
-  position            : absolute;
-  margin              : 0;
-  left                : -102px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .rectangle2 {
-  background-color    : rgba(233, 233, 233, 1.0);
-  top                 : 2875px;
-  height              : 960px;
-  width               : calc(100.00% + 204px);
-  position            : absolute;
-  margin              : 0;
-  left                : -102px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .namework {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 462px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .namework-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 294px;
-  align-items         : center;
-  height              : 251px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.work4 .namework .example {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Teko", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 175.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 251.0px;
-}
-.work4 .illustration {
-  background-color    : rgba(255,255,255,0.0);
-  width               : auto;
-  height              : auto;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Unica One", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 35.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 41.0px;
-}
-.work4 .illustration-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 506px;
-  align-items         : center;
-  height              : auto;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.work4 .menu {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 76px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .menu-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 30px;
-  align-items         : center;
-  height              : 57px;
-  width               : 100%;
-  position            : fixed;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.work4 .menu .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 57px;
-  width               : 76px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .menu .menu1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-in-out;
-  font-family         : "Teko", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : 10.5px;
-  line-height         : 43.0px;
-}
-.work4 .menu .menu1:hover {
-  transform           : scale(0.9);
-}
-.work4 .logo {
+.comingsoon .logo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 55px;
@@ -273,10 +107,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.work4 .logo:hover {
+.comingsoon .logo:hover {
   transform           : scale(0.9);
 }
-.work4 .logo .background {
+.comingsoon .logo .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 55px;
@@ -288,7 +122,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .logo .kseniapavlova {
+.comingsoon .logo .kseniapavlova {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : auto;
@@ -303,16 +137,75 @@ div {
   font-weight         : 300;
   font-style          : normal;
   font-size           : 40.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgba(38, 38, 38, 1.0);
   text-align          : center;
   line-height         : 57.0px;
 }
-.work4 .viewproject {
+.comingsoon .menu {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 76px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.comingsoon .menu-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 57px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.comingsoon .menu .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.comingsoon .menu .menu1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 10.5px;
+  line-height         : 43.0px;
+}
+.comingsoon .menu .menu1:hover {
+  transform           : scale(0.9);
+}
+.comingsoon .viewproject {
   background-color    : rgba(255,255,255,0.0);
   right               : 39px;
   top                 : 30px;
   height              : 57px;
-  width               : 265px;
+  width               : 276px;
   position            : fixed;
   margin              : 0;
   overflow            : hidden;
@@ -321,14 +214,14 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.work4 .viewproject:hover {
+.comingsoon .viewproject:hover {
   transform           : scale(0.9);
 }
-.work4 .viewproject .background {
+.comingsoon .viewproject .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 57px;
-  width               : 265px;
+  width               : 276px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -336,7 +229,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .viewproject .viewprojects {
+.comingsoon .viewproject .viewprojects {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -351,37 +244,106 @@ div {
   font-weight         : 300;
   font-style          : normal;
   font-size           : 30.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgba(38, 38, 38, 1.0);
   text-align          : left;
   letter-spacing      : 10.5px;
   line-height         : 43.0px;
 }
-.work4 .rectangle3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 955px;
-  height              : 960px;
-  width               : calc(100.00% + 204px);
-  position            : absolute;
-  margin              : 0;
-  left                : -102px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .downinteraction {
+.comingsoon .aboutbl {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 608px;
-  height              : 105px;
-  width               : 32px;
-  position            : absolute;
+  top                 : 340px;
+  height              : 127px;
+  width               : 206px;
+  position            : fixed;
   margin              : 0;
-  left                : calc(50.00% - 16px);
+  left                : 0px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .downinteraction .background {
+.comingsoon .aboutbl .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.comingsoon .aboutbl .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.comingsoon .aboutbl .group2 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 49.51%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.comingsoon .aboutbl .group2 .group1 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44.88%;
+  height              : 2.36%;
+  width               : 41.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.comingsoon .aboutbl .group2 .group1 .about {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -37.25%;
+  top                 : calc(50.00% - 26px);
+  height              : 51px;
+  width               : 123.53%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 13.0px;
+  line-height         : 51.0px;
+}
+.comingsoon .aboutbl .group2 .downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 17.48%;
+  top                 : 3.94%;
+  height              : 82.68%;
+  width               : 15.53%;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.comingsoon .aboutbl .group2 .downinteraction .background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -393,7 +355,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .downinteraction .group {
+.comingsoon .aboutbl .group2 .downinteraction .group4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -405,7 +367,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .downinteraction .group .path40 {
+.comingsoon .aboutbl .group2 .downinteraction .group4 .path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -417,7 +379,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .downinteraction .group .triangle {
+.comingsoon .aboutbl .group2 .downinteraction .group4 .triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -429,153 +391,11 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.work4 .previous {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 366px;
-  height              : 100px;
-  width               : 206px;
-  position            : fixed;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .previous .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 206px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .previous .rectangle4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -9px;
-  height              : 118px;
-  width               : 223px;
-  position            : absolute;
-  margin              : 0;
-  left                : -8px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .previous .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 101px;
-  width               : 103px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .previous .group .line2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 42.57%;
-  height              : 2.97%;
-  width               : 40.78%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .previous .group .prev {
-  background-color    : rgba(255,255,255,0.0);
-  right               : -24.27%;
-  top                 : calc(50.00% - 26px);
-  height              : 51px;
-  width               : 97.09%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(90deg); /* IE 9 */
-  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
-  transform           : rotate(90deg);
-  font-family         : "Teko", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 35.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : 13.0px;
-  line-height         : 51.0px;
-}
-.work4 .previous .downinteraction1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -9px;
-  height              : 105px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 138px;
-  overflow            : hidden;
-  -ms-transform       : rotate(90deg); /* IE 9 */
-  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
-  transform           : rotate(90deg);
-}
-.work4 .previous .downinteraction1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .previous .downinteraction1 .group1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 98px;
-  width               : 27px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .previous .downinteraction1 .group1 .path40 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 71.43%;
-  width               : 11.11%;
-  position            : absolute;
-  margin              : 0;
-  left                : 44.44%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .previous .downinteraction1 .group1 .triangle {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 4.08%;
-  height              : 37.76%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(180deg); /* IE 9 */
-  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
-  transform           : rotate(180deg);
-}
-.work4 .next {
+.comingsoon .skillsbl {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
-  top                 : 368px;
-  height              : 100px;
+  top                 : 336px;
+  height              : 127px;
   width               : 206px;
   position            : fixed;
   margin              : 0;
@@ -584,10 +404,10 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .next .background {
+.comingsoon .skillsbl .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100px;
+  height              : 127px;
   width               : 206px;
   position            : absolute;
   margin              : 0;
@@ -596,50 +416,38 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .next .rectangle4 {
+.comingsoon .skillsbl .group1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -9px;
-  height              : 118px;
-  width               : 223px;
+  top                 : 1px;
+  height              : 139px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : -6px;
+  left                : 105px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .next .group {
+.comingsoon .skillsbl .group1 .line2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 99px;
-  width               : 104px;
-  position            : absolute;
-  margin              : 0;
-  left                : 103px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.work4 .next .group .line2 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 42.42%;
-  height              : 3.03%;
-  width               : 40.38%;
+  right               : 0.98%;
+  top                 : 43.17%;
+  height              : 2.16%;
+  width               : 41.18%;
   position            : absolute;
   margin              : 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .next .group .next1 {
+.comingsoon .skillsbl .group1 .skills {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 26px);
   height              : 51px;
-  width               : 94.23%;
+  width               : 136.27%;
   position            : absolute;
   margin              : 0;
-  left                : -22.12%;
+  left                : -43.14%;
   -ms-transform       : rotate(90deg); /* IE 9 */
   -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
   transform           : rotate(90deg);
@@ -647,25 +455,25 @@ div {
   font-weight         : 300;
   font-style          : normal;
   font-size           : 35.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgba(38, 38, 38, 1.0);
   text-align          : left;
   letter-spacing      : 13.0px;
   line-height         : 51.0px;
 }
-.work4 .next .downinteraction1 {
+.comingsoon .skillsbl .downinteractionbl {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -9px;
+  top                 : 11px;
   height              : 105px;
   width               : 32px;
   position            : absolute;
   margin              : 0;
-  left                : 37px;
+  left                : 36px;
   overflow            : hidden;
   -ms-transform       : rotate(-90deg); /* IE 9 */
   -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
   transform           : rotate(-90deg);
 }
-.work4 .next .downinteraction1 .background1 {
+.comingsoon .skillsbl .downinteractionbl .background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -677,7 +485,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .next .downinteraction1 .group1 {
+.comingsoon .skillsbl .downinteractionbl .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -689,7 +497,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .next .downinteraction1 .group1 .path40 {
+.comingsoon .skillsbl .downinteractionbl .group2 .path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -701,7 +509,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .next .downinteraction1 .group1 .triangle {
+.comingsoon .skillsbl .downinteractionbl .group2 .triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -713,22 +521,24 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.work4 .social {
+.comingsoon .socialbl {
   background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
   width               : 193px;
   height              : 100%;
   pointer-events      : auto;
+  margin-left         : 0px;
   position            : relative;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social-layout-container {
+.comingsoon .socialbl-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
-  bottom              : 30px;
+  bottom              : 15px;
   height              : 26px;
   width               : 100%;
   position            : absolute;
@@ -736,7 +546,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work4 .social .background {
+.comingsoon .socialbl .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -748,7 +558,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social .group5 {
+.comingsoon .socialbl .group5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -760,7 +570,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social .group5 .bitmap {
+.comingsoon .socialbl .group5 .bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -772,7 +582,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social .group5 .bitmap1 {
+.comingsoon .socialbl .group5 .bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -784,7 +594,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social .group6 {
+.comingsoon .socialbl .group6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -796,7 +606,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social .group6 .bitmap {
+.comingsoon .socialbl .group6 .bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -808,7 +618,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social .group6 .bitmap1 {
+.comingsoon .socialbl .group6 .bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -820,7 +630,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social .group7 {
+.comingsoon .socialbl .group7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 19px;
@@ -832,7 +642,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social .group7 .shape {
+.comingsoon .socialbl .group7 .shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -844,7 +654,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .social .group7 .shape1 {
+.comingsoon .socialbl .group7 .shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -856,29 +666,30 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .group2 {
+.comingsoon .group {
   background-color    : rgba(255,255,255,0.0);
-  width               : 832px;
-  height              : 100%;
-  pointer-events      : auto;
   position            : relative;
+  pointer-events      : auto;
+  height              : 209px;
+  width               : 510px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work4 .group2-layout-container {
+.comingsoon .group-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 1248px;
+  top                 : 0;
   align-items         : center;
-  height              : 374px;
+  height              : 100%;
   width               : 100%;
+  justify-content     : center;
   position            : absolute;
   margin              : 0;
   display             : flex;
   left                : 0;
 }
-.work4 .group2 .example {
+.comingsoon .group .comingsoon1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -889,29 +700,87 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "SofiaProSemiBold", Helvetica, Arial, serif;
+  font-family         : "SofiaProBold", Helvetica, Arial, serif;
   font-size           : 60.0px;
-  color               : rgba(60, 60, 60, 1.0);
+  color               : rgba(38, 38, 38, 1.0);
   text-align          : center;
-  letter-spacing      : 2.0px;
+  letter-spacing      : 7.0px;
   line-height         : 72.0px;
 }
-.work4 .group2 .helloaselftaught {
+.comingsoon .group .websiteisundercon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 99px;
+  top                 : 107px;
   height              : auto;
-  width               : 832px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.33px;
+  line-height         : 34.0px;
+}
+.comingsoon .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 227px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.comingsoon .group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 517px;
+  align-items         : center;
+  height              : 46px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.comingsoon .group3:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.comingsoon .group3 .rectangle {
+  background-color    : rgba(13, 13, 11, 1.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 227px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+}
+.comingsoon .group3 .contactme {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "SofiaProRegular", Helvetica, Arial, serif;
-  font-size           : 25.0px;
-  color               : rgba(60, 60, 60, 1.0);
-  text-align          : left;
-  line-height         : 55.0px;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.01px;
+  line-height         : 37.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
