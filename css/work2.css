@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:400,300,500');
 
 @font-face {
                           font-family: "SofiaProSemiBold";
@@ -16,10 +16,6 @@
                           font-family: "SofiaProBold";
                           src: url('../fonts/SofiaProBold.ttf') format("truetype");
                         }
-                        @font-face {
-                          font-family: "SofiaProUltraLight";
-                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
-                        }
                         
 .anima-overlay {
   position            : absolute;
@@ -33,7 +29,7 @@
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
-  min-height          : 2862px;
+  min-height          : 2519px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -144,7 +140,7 @@ div {
 .work2 .a2dis-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 1946px;
+  top                 : 1684px;
   align-items         : center;
   height              : 835px;
   width               : 100%;
@@ -551,7 +547,7 @@ div {
 .work2 .rectangle1 {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 960px;
-  height              : 835px;
+  height              : 703px;
   width               : calc(100.00% + 204px);
   position            : absolute;
   margin              : 0;
