@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:500,300,400');
 
 @font-face {
-                          font-family: "SofiaProSemiBold";
-                          src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SofiaProRegular";
                           src: url('../fonts/SofiaProRegular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProSemiBold";
+                          src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "OpenSans-Regular";
@@ -29,7 +29,2769 @@
   width               : 100%;
   height              : 100%;
 }
-.project {
+.bp3-projecttablet {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1060px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-projecttablet .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -80px;
+  height              : calc(100.00% + 433px);
+  width               : calc(100.00% + 221px);
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-background .bp3-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1493px;
+  width               : 989px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-background .bp3-group14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -190px;
+  height              : 1804px;
+  width               : 1625px;
+  position            : absolute;
+  margin              : 0;
+  left                : -200px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 380px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 105px;
+  align-items         : center;
+  height              : 878px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 842px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group23:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group23 .bp3-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group23 .bp3-group8 .bp3-rectangle {
+  background-color    : rgba(13, 13, 11, 1.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group23 .bp3-group8 .bp3-artboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 221px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group23 .bp3-group8 .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 46px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group23 .bp3-group8 .bp3-group7 .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 100px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group23 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-bushi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group23 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-illustration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 286px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group21:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group21 .bp3-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group21 .bp3-group8 .bp3-examrr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group21 .bp3-group8 .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 46px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group21 .bp3-group8 .bp3-group7 .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 125px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group21 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-gasstation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group21 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-mobileapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group22 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 168px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group22-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 572px;
+  align-items         : center;
+  height              : 270px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group22:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group22 .bp3-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group22 .bp3-group8 .bp3-ger {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group22 .bp3-group8 .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 46px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group22 .bp3-group8 .bp3-group7 .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 100px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group22 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-smartkey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group .bp3-group22 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-mobileapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 842px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 212px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group22 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 168px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group22-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 270px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group22:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group22 .bp3-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group22 .bp3-group8 .bp3-deer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group22 .bp3-group8 .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 46px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group22 .bp3-group8 .bp3-group7 .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 100px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group22 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-deer1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group22 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-illustration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 286px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23 .bp3-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 208px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23 .bp3-group8 .bp3-u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23 .bp3-group8 .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 37px;
+  width               : 190px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23 .bp3-group8 .bp3-group7 .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 190px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-easyjapanese {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -20px;
+  height              : auto;
+  width               : 189px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -1.0px;
+  line-height         : 13.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-easyjapanese .bp3-span1 {
+  
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-easyjapanese .bp3-span2 {
+  
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-work3 .bp3-group23 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-mobileapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 572px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group21:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group21 .bp3-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group21 .bp3-group8 .bp3-u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group21 .bp3-group8 .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 46px;
+  width               : 151px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group21 .bp3-group8 .bp3-group7 .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 151px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group21 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-apartment {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 151px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(55, 67, 107, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp3-projecttablet .bp3-group3 .bp3-group2 .bp3-group21 .bp3-group8 .bp3-group7 .bp3-group1 .bp3-website {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(56, 68, 108, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-projecttablet .bp3-socialbl {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 15px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-projecttablet .bp3-socialbl .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl .bp3-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl .bp3-group5 .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl .bp3-group5 .bp3-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl .bp3-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl .bp3-group6 .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl .bp3-group6 .bp3-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl .bp3-group7 .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-socialbl .bp3-group7 .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-aboutbl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 64px);
+  height              : 127px;
+  width               : 103px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-aboutbl .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-aboutbl .bp3-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 109px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : -20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-aboutbl .bp3-group2 .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-aboutbl .bp3-group2 .bp3-group .bp3-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44.95%;
+  height              : 2.75%;
+  width               : 43.30%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-aboutbl .bp3-group2 .bp3-group .bp3-about {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -34.02%;
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 111.34%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp3-projecttablet .bp3-skillsbl {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : calc(50.00% - 64px);
+  height              : 127px;
+  width               : 103px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-skillsbl .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-skillsbl .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 120px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-skillsbl .bp3-group .bp3-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 44.17%;
+  height              : 1.67%;
+  width               : 43.00%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-skillsbl .bp3-group .bp3-skills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 120.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : -38.00%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp3-projecttablet .bp3-logo {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 172px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-projecttablet .bp3-logo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 55px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-projecttablet .bp3-logo:hover {
+  transform           : scale(0.9);
+}
+.bp3-projecttablet .bp3-logo .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-logo .bp3-kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : center;
+  line-height         : 51.0px;
+}
+.bp3-projecttablet .bp3-logo .bp3-kseniapavlova-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-projecttablet .bp3-viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 46px;
+  width               : 46px;
+  position            : fixed;
+  margin              : 0;
+  left                : 38px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-projecttablet .bp3-viewproject:hover {
+  transform           : scale(0.9);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 .bp3-rectangle {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 .bp3-rectangle1 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 .bp3-rectangle2 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 .bp3-rectangle3 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 .bp3-rectangle4 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 .bp3-rectangle5 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 .bp3-rectangle6 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 .bp3-rectangle7 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-viewproject .bp3-group37 .bp3-rectangle8 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 42px;
+  top                 : 42px;
+  height              : 40px;
+  width               : 40px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-projecttablet .bp3-menu:hover {
+  transform           : scale(0.9);
+}
+.bp3-projecttablet .bp3-menu .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-menu .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-projecttablet .bp3-menu .bp3-group .bp3-line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp3-projecttablet .bp3-menu .bp3-group .bp3-line31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp3-projecttablet .bp3-menu .bp3-group .bp3-line32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-projectiphonese {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 1618px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-projectiphonese .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -80px;
+  height              : calc(100.00% + 433px);
+  width               : calc(100.00% + 221px);
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-background .bp2-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2051px;
+  width               : 541px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-background .bp2-group14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -261px;
+  height              : 2477px;
+  width               : 890px;
+  position            : absolute;
+  margin              : 0;
+  left                : -110px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 163px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 135px;
+  align-items         : center;
+  height              : 1390px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-projectiphonese .bp2-group .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-projectiphonese .bp2-group .bp2-group2:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp2-projectiphonese .bp2-group .bp2-group2 .bp2-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group2 .bp2-group8 .bp2-rectangle {
+  background-color    : rgba(13, 13, 11, 1.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group2 .bp2-group8 .bp2-artboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 215px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group2 .bp2-group8 .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 45px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group2 .bp2-group8 .bp2-group7 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 97px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group2 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-bushi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp2-projectiphonese .bp2-group .bp2-group2 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-illustration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-projectiphonese .bp2-group .bp2-group21 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 163px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-projectiphonese .bp2-group .bp2-group21-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 282px;
+  align-items         : center;
+  height              : 262px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-projectiphonese .bp2-group .bp2-group21:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp2-projectiphonese .bp2-group .bp2-group21 .bp2-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group21 .bp2-group8 .bp2-deer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group21 .bp2-group8 .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 45px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group21 .bp2-group8 .bp2-group7 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 97px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group21 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-deer1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp2-projectiphonese .bp2-group .bp2-group21 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-illustration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 564px;
+  height              : 262px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 .bp2-group24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 .bp2-group24:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 .bp2-group24 .bp2-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 201px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 .bp2-group24 .bp2-group8 .bp2-u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 .bp2-group24 .bp2-group8 .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 45px;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 .bp2-group24 .bp2-group8 .bp2-group7 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 185px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 .bp2-group24 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-easyjapanese {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp2-projectiphonese .bp2-group .bp2-work3 .bp2-group24 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-mobileapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-projectiphonese .bp2-group .bp2-group22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 846px;
+  height              : 262px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-projectiphonese .bp2-group .bp2-group22:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp2-projectiphonese .bp2-group .bp2-group22 .bp2-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group22 .bp2-group8 .bp2-examrr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group22 .bp2-group8 .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 45px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group22 .bp2-group8 .bp2-group7 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 121px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group22 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-gasstation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp2-projectiphonese .bp2-group .bp2-group22 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-mobileapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-projectiphonese .bp2-group .bp2-group23 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 163px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-projectiphonese .bp2-group .bp2-group23-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1128px;
+  align-items         : center;
+  height              : 262px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-projectiphonese .bp2-group .bp2-group23:hover {
+  transform           : translate(0, -10px);
+  box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
+}
+.bp2-projectiphonese .bp2-group .bp2-group23 .bp2-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group23 .bp2-group8 .bp2-ger {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group23 .bp2-group8 .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 25px;
+  height              : 45px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group23 .bp2-group8 .bp2-group7 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 97px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-group .bp2-group23 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-smartkey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : auto;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp2-projectiphonese .bp2-group .bp2-group23 .bp2-group8 .bp2-group7 .bp2-group1 .bp2-mobileapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-projectiphonese .bp2-skillsbl {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -10px;
+  top                 : 220px;
+  height              : 127px;
+  width               : 103px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-skillsbl .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-skillsbl .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 120px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-skillsbl .bp2-group1 .bp2-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 44.17%;
+  height              : 1.67%;
+  width               : 43.00%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-skillsbl .bp2-group1 .bp2-skills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 120.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : -38.00%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp2-projectiphonese .bp2-socialbl {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 15px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-group5 .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-group5 .bp2-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-group6 .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-group6 .bp2-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-group7 .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-socialbl .bp2-group7 .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-aboutbl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 220px;
+  height              : 127px;
+  width               : 103px;
+  position            : fixed;
+  margin              : 0;
+  left                : -10px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-aboutbl .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 127px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-aboutbl .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 109px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : -20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-aboutbl .bp2-group2 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-aboutbl .bp2-group2 .bp2-group1 .bp2-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44.95%;
+  height              : 2.75%;
+  width               : 43.30%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-aboutbl .bp2-group2 .bp2-group1 .bp2-about {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -34.02%;
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 111.34%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp2-projectiphonese .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 172px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-projectiphonese .bp2-logo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 55px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-projectiphonese .bp2-logo:hover {
+  transform           : scale(0.9);
+}
+.bp2-projectiphonese .bp2-logo .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-logo .bp2-kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : center;
+  line-height         : 51.0px;
+}
+.bp2-projectiphonese .bp2-logo .bp2-kseniapavlova-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-projectiphonese .bp2-viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 46px;
+  width               : 46px;
+  position            : fixed;
+  margin              : 0;
+  left                : 15px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-projectiphonese .bp2-viewproject:hover {
+  transform           : scale(0.9);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle1 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle2 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle3 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle4 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle5 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle6 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle7 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle8 {
+  background-color    : rgba(44, 44, 45, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 15px;
+  top                 : 42px;
+  height              : 40px;
+  width               : 40px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-projectiphonese .bp2-menu:hover {
+  transform           : scale(0.9);
+}
+.bp2-projectiphonese .bp2-menu .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-menu .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-projectiphonese .bp2-menu .bp2-group1 .bp2-line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-projectiphonese .bp2-menu .bp2-group1 .bp2-line31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-projectiphonese .bp2-menu .bp2-group1 .bp2-line32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp1-project {
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
@@ -56,7 +2818,7 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.project .background {
+.bp1-project .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : -80px;
   height              : calc(100.00% + 433px);
@@ -69,7 +2831,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .background .mask {
+.bp1-project .bp1-background .bp1-mask {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 2106px;
@@ -81,7 +2843,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .background .group14 {
+.bp1-project .bp1-background .bp1-group14 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -268px;
   height              : 2543px;
@@ -93,7 +2855,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .logo {
+.bp1-project .bp1-logo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 55px;
@@ -107,10 +2869,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.project .logo:hover {
+.bp1-project .bp1-logo:hover {
   transform           : scale(0.9);
 }
-.project .logo .background1 {
+.bp1-project .bp1-logo .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 55px;
@@ -122,7 +2884,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .logo .kseniapavlova {
+.bp1-project .bp1-logo .bp1-kseniapavlova {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : auto;
@@ -141,7 +2903,7 @@ div {
   text-align          : center;
   line-height         : 57.0px;
 }
-.project .menu {
+.bp1-project .bp1-menu {
   background-color    : rgba(255,255,255,0.0);
   width               : 76px;
   height              : 100%;
@@ -152,7 +2914,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .menu-layout-container {
+.bp1-project .bp1-menu-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 30px;
@@ -164,7 +2926,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.project .menu .background1 {
+.bp1-project .bp1-menu .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 57px;
@@ -176,7 +2938,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .menu .menu1 {
+.bp1-project .bp1-menu .bp1-menu1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -197,10 +2959,10 @@ div {
   letter-spacing      : 10.5px;
   line-height         : 43.0px;
 }
-.project .menu .menu1:hover {
+.bp1-project .bp1-menu .bp1-menu1:hover {
   transform           : scale(0.9);
 }
-.project .viewproject {
+.bp1-project .bp1-viewproject {
   background-color    : rgba(255,255,255,0.0);
   right               : 39px;
   top                 : 30px;
@@ -214,10 +2976,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.project .viewproject:hover {
+.bp1-project .bp1-viewproject:hover {
   transform           : scale(0.9);
 }
-.project .viewproject .background1 {
+.bp1-project .bp1-viewproject .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 57px;
@@ -229,7 +2991,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .viewproject .viewprojects {
+.bp1-project .bp1-viewproject .bp1-viewprojects {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -249,7 +3011,7 @@ div {
   letter-spacing      : 10.5px;
   line-height         : 43.0px;
 }
-.project .aboutbl {
+.bp1-project .bp1-aboutbl {
   background-color    : rgba(255,255,255,0.0);
   top                 : 340px;
   height              : 127px;
@@ -262,7 +3024,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .aboutbl .background1 {
+.bp1-project .bp1-aboutbl .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 127px;
@@ -274,7 +3036,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .aboutbl .group2 {
+.bp1-project .bp1-aboutbl .bp1-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 127px;
@@ -286,7 +3048,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .aboutbl .group2 .group3 {
+.bp1-project .bp1-aboutbl .bp1-group2 .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -298,7 +3060,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .aboutbl .group2 .group3 .line {
+.bp1-project .bp1-aboutbl .bp1-group2 .bp1-group3 .bp1-line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 44.88%;
   height              : 2.36%;
@@ -310,7 +3072,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .aboutbl .group2 .group3 .about {
+.bp1-project .bp1-aboutbl .bp1-group2 .bp1-group3 .bp1-about {
   background-color    : rgba(255,255,255,0.0);
   right               : -37.25%;
   top                 : calc(50.00% - 26px);
@@ -330,7 +3092,7 @@ div {
   letter-spacing      : 13.0px;
   line-height         : 51.0px;
 }
-.project .aboutbl .group2 .downinteraction {
+.bp1-project .bp1-aboutbl .bp1-group2 .bp1-downinteraction {
   background-color    : rgba(255,255,255,0.0);
   right               : 17.48%;
   top                 : 3.94%;
@@ -343,7 +3105,7 @@ div {
   -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
   transform           : rotate(90deg);
 }
-.project .aboutbl .group2 .downinteraction .background2 {
+.bp1-project .bp1-aboutbl .bp1-group2 .bp1-downinteraction .bp1-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -355,7 +3117,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .aboutbl .group2 .downinteraction .group4 {
+.bp1-project .bp1-aboutbl .bp1-group2 .bp1-downinteraction .bp1-group4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -367,7 +3129,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .aboutbl .group2 .downinteraction .group4 .path40 {
+.bp1-project .bp1-aboutbl .bp1-group2 .bp1-downinteraction .bp1-group4 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -379,7 +3141,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .aboutbl .group2 .downinteraction .group4 .triangle {
+.bp1-project .bp1-aboutbl .bp1-group2 .bp1-downinteraction .bp1-group4 .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -391,7 +3153,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.project .skillsbl {
+.bp1-project .bp1-skillsbl {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 336px;
@@ -404,7 +3166,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .skillsbl .background1 {
+.bp1-project .bp1-skillsbl .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 127px;
@@ -416,7 +3178,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .skillsbl .group2 {
+.bp1-project .bp1-skillsbl .bp1-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 139px;
@@ -428,7 +3190,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .skillsbl .group2 .line2 {
+.bp1-project .bp1-skillsbl .bp1-group2 .bp1-line2 {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.98%;
   top                 : 43.17%;
@@ -440,7 +3202,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .skillsbl .group2 .skills {
+.bp1-project .bp1-skillsbl .bp1-group2 .bp1-skills {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 26px);
   height              : 51px;
@@ -460,7 +3222,7 @@ div {
   letter-spacing      : 13.0px;
   line-height         : 51.0px;
 }
-.project .skillsbl .downinteractionbl {
+.bp1-project .bp1-skillsbl .bp1-downinteractionbl {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : 105px;
@@ -473,7 +3235,7 @@ div {
   -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
   transform           : rotate(-90deg);
 }
-.project .skillsbl .downinteractionbl .background2 {
+.bp1-project .bp1-skillsbl .bp1-downinteractionbl .bp1-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -485,7 +3247,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .skillsbl .downinteractionbl .group3 {
+.bp1-project .bp1-skillsbl .bp1-downinteractionbl .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -497,7 +3259,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .skillsbl .downinteractionbl .group3 .path40 {
+.bp1-project .bp1-skillsbl .bp1-downinteractionbl .bp1-group3 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -509,7 +3271,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .skillsbl .downinteractionbl .group3 .triangle {
+.bp1-project .bp1-skillsbl .bp1-downinteractionbl .bp1-group3 .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -521,7 +3283,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.project .group {
+.bp1-project .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   width               : 954px;
   height              : 100%;
@@ -531,7 +3293,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group-layout-container {
+.bp1-project .bp1-group-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 91px;
@@ -543,7 +3305,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.project .group .group2 {
+.bp1-project .bp1-group .bp1-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 542px;
@@ -556,11 +3318,11 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.project .group .group2:hover {
+.bp1-project .bp1-group .bp1-group2:hover {
   transform           : translate(0, -10px);
   box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
 }
-.project .group .group2 .a01 {
+.bp1-project .bp1-group .bp1-group2 .bp1-a01 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -580,7 +3342,7 @@ div {
   letter-spacing      : -2.74px;
   line-height         : 115.0px;
 }
-.project .group .group2 .group8 {
+.bp1-project .bp1-group .bp1-group2 .bp1-group8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 92px;
   height              : 450px;
@@ -592,7 +3354,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group2 .group8 .rectangle {
+.bp1-project .bp1-group .bp1-group2 .bp1-group8 .bp1-rectangle {
   background-color    : rgba(13, 13, 11, 1.0);
   top                 : 0px;
   height              : 450px;
@@ -604,7 +3366,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group2 .group8 .artboard {
+.bp1-project .bp1-group .bp1-group2 .bp1-group8 .bp1-artboard {
   background-color    : rgba(255,255,255,0.0);
   top                 : 35px;
   height              : 369px;
@@ -616,7 +3378,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group2 .group8 .group7 {
+.bp1-project .bp1-group .bp1-group2 .bp1-group8 .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 25px;
   height              : 107px;
@@ -628,7 +3390,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group2 .group8 .group7 .group3 {
+.bp1-project .bp1-group .bp1-group2 .bp1-group8 .bp1-group7 .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 107px;
@@ -640,7 +3402,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group2 .group8 .group7 .group3 .bushi {
+.bp1-project .bp1-group .bp1-group2 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-bushi {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -659,7 +3421,7 @@ div {
   text-align          : left;
   line-height         : 72.0px;
 }
-.project .group .group2 .group8 .group7 .group3 .illustration {
+.bp1-project .bp1-group .bp1-group2 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-illustration {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : auto;
@@ -678,7 +3440,7 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.project .group .group21 {
+.bp1-project .bp1-group .bp1-group21 {
   background-color    : rgba(255,255,255,0.0);
   width               : 280px;
   height              : 100%;
@@ -689,7 +3451,7 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.project .group .group21-layout-container {
+.bp1-project .bp1-group .bp1-group21-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 100px;
@@ -701,11 +3463,11 @@ div {
   display             : flex;
   left                : 0;
 }
-.project .group .group21:hover {
+.bp1-project .bp1-group .bp1-group21:hover {
   transform           : translate(0, -10px);
   box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
 }
-.project .group .group21 .group8 {
+.bp1-project .bp1-group .bp1-group21 .bp1-group8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 92px;
   height              : 450px;
@@ -717,7 +3479,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group21 .group8 .deer {
+.bp1-project .bp1-group .bp1-group21 .bp1-group8 .bp1-deer {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 450px;
@@ -729,7 +3491,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group21 .group8 .group7 {
+.bp1-project .bp1-group .bp1-group21 .bp1-group8 .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 25px;
   height              : 107px;
@@ -741,7 +3503,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group21 .group8 .group7 .group3 {
+.bp1-project .bp1-group .bp1-group21 .bp1-group8 .bp1-group7 .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 107px;
@@ -753,7 +3515,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group21 .group8 .group7 .group3 .deer1 {
+.bp1-project .bp1-group .bp1-group21 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-deer1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -772,7 +3534,7 @@ div {
   text-align          : left;
   line-height         : 72.0px;
 }
-.project .group .group21 .group8 .group7 .group3 .illustration {
+.bp1-project .bp1-group .bp1-group21 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-illustration {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : auto;
@@ -791,7 +3553,7 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.project .group .group21 .a02 {
+.bp1-project .bp1-group .bp1-group21 .bp1-a02 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -811,7 +3573,7 @@ div {
   letter-spacing      : -2.74px;
   line-height         : 115.0px;
 }
-.project .group .group22 {
+.bp1-project .bp1-group .bp1-group22 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 542px;
@@ -824,11 +3586,11 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.project .group .group22:hover {
+.bp1-project .bp1-group .bp1-group22:hover {
   transform           : translate(0, -10px);
   box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
 }
-.project .group .group22 .group8 {
+.bp1-project .bp1-group .bp1-group22 .bp1-group8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 92px;
   height              : 450px;
@@ -840,7 +3602,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group22 .group8 .u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 {
+.bp1-project .bp1-group .bp1-group22 .bp1-group8 .bp1-u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 {
   background-color    : rgba(191, 191, 191, 1.0);
   top                 : 0px;
   height              : 450px;
@@ -853,7 +3615,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group22 .group8 .u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 .mask {
+.bp1-project .bp1-group .bp1-group22 .bp1-group8 .bp1-u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 .bp1-mask {
   background-color    : rgba(191, 191, 191, 1.0);
   top                 : 0px;
   height              : 450px;
@@ -865,7 +3627,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group22 .group8 .u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 .u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u0432918181 {
+.bp1-project .bp1-group .bp1-group22 .bp1-group8 .bp1-u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 .bp1-u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u0432918181 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -3px;
   height              : 340px;
@@ -877,7 +3639,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group22 .group8 .group7 {
+.bp1-project .bp1-group .bp1-group22 .bp1-group8 .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 25px;
   height              : 107px;
@@ -889,7 +3651,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group22 .group8 .group7 .group3 {
+.bp1-project .bp1-group .bp1-group22 .bp1-group8 .bp1-group7 .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 107px;
@@ -901,7 +3663,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group .group22 .group8 .group7 .group3 .easyjapanese {
+.bp1-project .bp1-group .bp1-group22 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-easyjapanese {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -920,7 +3682,7 @@ div {
   text-align          : left;
   line-height         : 72.0px;
 }
-.project .group .group22 .group8 .group7 .group3 .mobileapp {
+.bp1-project .bp1-group .bp1-group22 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-mobileapp {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : auto;
@@ -939,7 +3701,7 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.project .group .group22 .a03 {
+.bp1-project .bp1-group .bp1-group22 .bp1-a03 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -959,7 +3721,7 @@ div {
   letter-spacing      : -2.74px;
   line-height         : 115.0px;
 }
-.project .group1 {
+.bp1-project .bp1-group1 {
   background-color    : rgba(255,255,255,0.0);
   width               : 954px;
   height              : 100%;
@@ -969,7 +3731,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1-layout-container {
+.bp1-project .bp1-group1-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 916px;
@@ -981,7 +3743,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.project .group1 .group2 {
+.bp1-project .bp1-group1 .bp1-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 542px;
@@ -994,11 +3756,11 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.project .group1 .group2:hover {
+.bp1-project .bp1-group1 .bp1-group2:hover {
   transform           : translate(0, -10px);
   box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
 }
-.project .group1 .group2 .a04 {
+.bp1-project .bp1-group1 .bp1-group2 .bp1-a04 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1018,7 +3780,7 @@ div {
   letter-spacing      : -2.74px;
   line-height         : 115.0px;
 }
-.project .group1 .group2 .group8 {
+.bp1-project .bp1-group1 .bp1-group2 .bp1-group8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 92px;
   height              : 450px;
@@ -1030,20 +3792,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group2 .group8 .examrr {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 450px;
-  width               : 280px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.project .group1 .group2 .group8 .examrr .mask {
+.bp1-project .bp1-group1 .bp1-group2 .bp1-group8 .bp1-examrr {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 450px;
@@ -1055,19 +3804,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group2 .group8 .examrr .c {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 23px;
-  height              : 302px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.project .group1 .group2 .group8 .group7 {
+.bp1-project .bp1-group1 .bp1-group2 .bp1-group8 .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 25px;
   height              : 107px;
@@ -1079,7 +3816,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group2 .group8 .group7 .group3 {
+.bp1-project .bp1-group1 .bp1-group2 .bp1-group8 .bp1-group7 .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 107px;
@@ -1091,7 +3828,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group2 .group8 .group7 .group3 .gasstation {
+.bp1-project .bp1-group1 .bp1-group2 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-gasstation {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1110,7 +3847,7 @@ div {
   text-align          : left;
   line-height         : 72.0px;
 }
-.project .group1 .group2 .group8 .group7 .group3 .mobileapp {
+.bp1-project .bp1-group1 .bp1-group2 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-mobileapp {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : auto;
@@ -1129,7 +3866,7 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.project .group1 .group21 {
+.bp1-project .bp1-group1 .bp1-group21 {
   background-color    : rgba(255,255,255,0.0);
   width               : 280px;
   height              : 100%;
@@ -1140,7 +3877,7 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.project .group1 .group21-layout-container {
+.bp1-project .bp1-group1 .bp1-group21-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 100px;
@@ -1152,11 +3889,11 @@ div {
   display             : flex;
   left                : 0;
 }
-.project .group1 .group21:hover {
+.bp1-project .bp1-group1 .bp1-group21:hover {
   transform           : translate(0, -10px);
   box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
 }
-.project .group1 .group21 .group8 {
+.bp1-project .bp1-group1 .bp1-group21 .bp1-group8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 92px;
   height              : 450px;
@@ -1168,20 +3905,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group21 .group8 .ger {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 450px;
-  width               : 280px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.project .group1 .group21 .group8 .ger .mask {
+.bp1-project .bp1-group1 .bp1-group21 .bp1-group8 .bp1-ger {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 450px;
@@ -1193,19 +3917,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group21 .group8 .ger .iphone {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 53px;
-  height              : 297px;
-  width               : 529px;
-  position            : absolute;
-  margin              : 0;
-  left                : -124px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.project .group1 .group21 .group8 .group7 {
+.bp1-project .bp1-group1 .bp1-group21 .bp1-group8 .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 25px;
   height              : 107px;
@@ -1217,7 +3929,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group21 .group8 .group7 .group3 {
+.bp1-project .bp1-group1 .bp1-group21 .bp1-group8 .bp1-group7 .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 107px;
@@ -1229,7 +3941,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group21 .group8 .group7 .group3 .smartkey {
+.bp1-project .bp1-group1 .bp1-group21 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-smartkey {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1248,7 +3960,7 @@ div {
   text-align          : left;
   line-height         : 72.0px;
 }
-.project .group1 .group21 .group8 .group7 .group3 .mobileapp {
+.bp1-project .bp1-group1 .bp1-group21 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-mobileapp {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : auto;
@@ -1267,7 +3979,7 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.project .group1 .group21 .a05 {
+.bp1-project .bp1-group1 .bp1-group21 .bp1-a05 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1287,7 +3999,7 @@ div {
   letter-spacing      : -2.74px;
   line-height         : 115.0px;
 }
-.project .group1 .group22 {
+.bp1-project .bp1-group1 .bp1-group22 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 542px;
@@ -1300,11 +4012,11 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.project .group1 .group22:hover {
+.bp1-project .bp1-group1 .bp1-group22:hover {
   transform           : translate(0, -10px);
   box-shadow          : 0px 15px 5px -8px rgba(0,0,0,0.2);
 }
-.project .group1 .group22 .group8 {
+.bp1-project .bp1-group1 .bp1-group22 .bp1-group8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 92px;
   height              : 450px;
@@ -1316,20 +4028,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group22 .group8 .u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 450px;
-  width               : 280px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.project .group1 .group22 .group8 .u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 .mask {
+.bp1-project .bp1-group1 .bp1-group22 .bp1-group8 .bp1-u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 450px;
@@ -1341,19 +4040,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group22 .group8 .u0421u043du0438u043cu043eu043au044du043au0440u0430u043du043020190903u043291818 .nn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 450px;
-  width               : 697px;
-  position            : absolute;
-  margin              : 0;
-  left                : -417px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.project .group1 .group22 .group8 .group7 {
+.bp1-project .bp1-group1 .bp1-group22 .bp1-group8 .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 25px;
   height              : 107px;
@@ -1365,7 +4052,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group22 .group8 .group7 .group3 {
+.bp1-project .bp1-group1 .bp1-group22 .bp1-group8 .bp1-group7 .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 107px;
@@ -1377,7 +4064,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .group1 .group22 .group8 .group7 .group3 .apartment {
+.bp1-project .bp1-group1 .bp1-group22 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-apartment {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1396,7 +4083,7 @@ div {
   text-align          : left;
   line-height         : 72.0px;
 }
-.project .group1 .group22 .group8 .group7 .group3 .website {
+.bp1-project .bp1-group1 .bp1-group22 .bp1-group8 .bp1-group7 .bp1-group3 .bp1-website {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : auto;
@@ -1415,7 +4102,7 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.project .group1 .group22 .a06 {
+.bp1-project .bp1-group1 .bp1-group22 .bp1-a06 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1435,7 +4122,7 @@ div {
   letter-spacing      : -2.74px;
   line-height         : 115.0px;
 }
-.project .socialbl {
+.bp1-project .bp1-socialbl {
   background-color    : rgba(255,255,255,0.0);
   margin-right        : -0px;
   width               : 193px;
@@ -1448,7 +4135,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl-layout-container {
+.bp1-project .bp1-socialbl-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
@@ -1460,7 +4147,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.project .socialbl .background1 {
+.bp1-project .bp1-socialbl .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1472,7 +4159,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl .group5 {
+.bp1-project .bp1-socialbl .bp1-group5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1484,7 +4171,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl .group5 .bitmap {
+.bp1-project .bp1-socialbl .bp1-group5 .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1496,7 +4183,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl .group5 .bitmap1 {
+.bp1-project .bp1-socialbl .bp1-group5 .bp1-bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1508,7 +4195,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl .group6 {
+.bp1-project .bp1-socialbl .bp1-group6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1520,7 +4207,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl .group6 .bitmap {
+.bp1-project .bp1-socialbl .bp1-group6 .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1532,7 +4219,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl .group6 .bitmap1 {
+.bp1-project .bp1-socialbl .bp1-group6 .bp1-bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1544,7 +4231,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl .group7 {
+.bp1-project .bp1-socialbl .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 19px;
@@ -1556,7 +4243,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl .group7 .shape {
+.bp1-project .bp1-socialbl .bp1-group7 .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1568,7 +4255,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.project .socialbl .group7 .shape1 {
+.bp1-project .bp1-socialbl .bp1-group7 .bp1-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1658,4 +4345,37 @@ div {
   {
       opacity: 1;
     }
+}
+@media screen and (max-width: 767px) {
+  .bp2-projectiphonese {
+    display             : block;
+  }
+  .bp3-projecttablet {
+    display             : none;
+  }
+  .bp1-project {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp2-projectiphonese {
+    display             : none;
+  }
+  .bp3-projecttablet {
+    display             : block;
+  }
+  .bp1-project {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bp2-projectiphonese {
+    display             : none;
+  }
+  .bp3-projecttablet {
+    display             : none;
+  }
+  .bp1-project {
+    display             : block;
+  }
 }

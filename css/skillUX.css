@@ -5,10 +5,6 @@
                           src: url('../fonts/SofiaProRegular.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SofiaProUltraLight";
-                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SofiaProSemiBold";
                           src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
                         }
@@ -20,6 +16,10 @@
                           font-family: "SofiaProBold";
                           src: url('../fonts/SofiaProBold.ttf') format("truetype");
                         }
+                        @font-face {
+                          font-family: "SofiaProUltraLight";
+                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
+                        }
                         
 .anima-overlay {
   position            : absolute;
@@ -29,7 +29,2437 @@
   width               : 100%;
   height              : 100%;
 }
-.skillux {
+.bp2-skilluxiphonese {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 1136px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-skilluxiphonese .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -80px;
+  height              : calc(100.00% + 160px);
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 230px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.bp2-skilluxiphonese .bp2-rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 111px;
+  align-items         : center;
+  height              : 230px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skilluxiphonese .bp2-discoverdefinede {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 222px;
+  margin-right        : -0px;
+  height              : auto;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.42px;
+  line-height         : 29.0px;
+}
+.bp2-skilluxiphonese .bp2-discoverdefinede-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 513px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skilluxiphonese .bp2-fromuserresearcht {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 231px;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.35px;
+  line-height         : 24.0px;
+}
+.bp2-skilluxiphonese .bp2-fromuserresearcht-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 602px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skilluxiphonese .bp2-social {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 30px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skilluxiphonese .bp2-social .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social .bp2-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social .bp2-group5 .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social .bp2-group5 .bp2-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social .bp2-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social .bp2-group6 .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social .bp2-group6 .bp2-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social .bp2-group7 .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-social .bp2-group7 .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-skillname {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 125px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-skillname-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 194px;
+  align-items         : center;
+  height              : 57px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skilluxiphonese .bp2-skillname .bp2-uxdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-skills {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  margin-right        : -0px;
+  height              : auto;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-skilluxiphonese .bp2-skills-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 257px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skilluxiphonese .bp2-downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 368px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 16px);
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-downinteraction .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-downinteraction .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-downinteraction .bp2-group1 .bp2-path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-downinteraction .bp2-group1 .bp2-triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.bp2-skilluxiphonese .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 175px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 75px;
+  height              : 75px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skilluxiphonese .bp2-group .bp2-invisionlogovector {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 30px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-invisionlogovector .bp2-combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-sympli {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-sympli .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 134px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin .bp2-group10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 41px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin .bp2-group10 .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 13px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin .bp2-group10 .bp2-combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin .bp2-group10 .bp2-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 13px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin .bp2-group10 .bp2-combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 8px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin .bp2-group10 .bp2-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 9px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin .bp2-group10 .bp2-path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin .bp2-group10 .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-zeplin .bp2-group10 .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 27px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-maze {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 20px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-maze .bp2-iconmaze {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  object-fit          : cover;
+}
+.bp2-skilluxiphonese .bp2-group .bp2-cprot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-cprot .bp2-group11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 28px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-cprot .bp2-group11 .bp2-combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-cprot .bp2-group11 .bp2-combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-cprot .bp2-group11 .bp2-combinedshape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-framer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 30px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-group .bp2-framer .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-previous {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 220px;
+  height              : 105px;
+  width               : 99px;
+  position            : fixed;
+  margin              : 0;
+  left                : -30px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-previous .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-previous .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 124px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-previous .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 86px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-previous .bp2-group1 .bp2-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40.70%;
+  height              : 3.49%;
+  width               : 42.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-previous .bp2-group1 .bp2-prev {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -21.88%;
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 88.54%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp2-skilluxiphonese .bp2-next {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -30px;
+  top                 : 230px;
+  height              : 95px;
+  width               : 105px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-next .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 95px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-next .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 112px;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-next .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 85px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-next .bp2-group1 .bp2-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 42.35%;
+  height              : 3.53%;
+  width               : 43.27%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-next .bp2-group1 .bp2-next1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 80.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : -19.23%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp2-skilluxiphonese .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 172px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-skilluxiphonese .bp2-logo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 55px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skilluxiphonese .bp2-logo:hover {
+  transform           : scale(0.9);
+}
+.bp2-skilluxiphonese .bp2-logo .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-logo .bp2-kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 51.0px;
+}
+.bp2-skilluxiphonese .bp2-logo .bp2-kseniapavlova-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skilluxiphonese .bp2-viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 46px;
+  width               : 46px;
+  position            : fixed;
+  margin              : 0;
+  left                : 15px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-skilluxiphonese .bp2-viewproject:hover {
+  transform           : scale(0.9);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle9 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 15px;
+  top                 : 42px;
+  height              : 40px;
+  width               : 40px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-skilluxiphonese .bp2-menu:hover {
+  transform           : scale(0.9);
+}
+.bp2-skilluxiphonese .bp2-menu .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-menu .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skilluxiphonese .bp2-menu .bp2-group1 .bp2-line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-skilluxiphonese .bp2-menu .bp2-group1 .bp2-line31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-skilluxiphonese .bp2-menu .bp2-group1 .bp2-line32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp3-skilluxtablet {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-skilluxtablet .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -80px;
+  height              : calc(100.00% + 160px);
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 405px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.bp3-skilluxtablet .bp3-rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 130px;
+  align-items         : center;
+  height              : 405px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skilluxtablet .bp3-downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 468px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 16px);
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-downinteraction .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-downinteraction .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-downinteraction .bp3-group1 .bp3-path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-downinteraction .bp3-group1 .bp3-triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.bp3-skilluxtablet .bp3-social {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 30px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skilluxtablet .bp3-social .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social .bp3-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social .bp3-group5 .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social .bp3-group5 .bp3-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social .bp3-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social .bp3-group6 .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social .bp3-group6 .bp3-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social .bp3-group7 .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-social .bp3-group7 .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-skillname {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 304px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-skillname-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 248px;
+  align-items         : center;
+  height              : 144px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skilluxtablet .bp3-skillname .bp3-uxdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 144px;
+  width               : 304px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-skills {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+}
+.bp3-skilluxtablet .bp3-skills-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 380px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skilluxtablet .bp3-discoverdefinede {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 5.12px;
+  line-height         : 43.0px;
+}
+.bp3-skilluxtablet .bp3-discoverdefinede-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 588px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skilluxtablet .bp3-fromuserresearcht {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 621px;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.35px;
+  line-height         : 24.0px;
+}
+.bp3-skilluxtablet .bp3-fromuserresearcht-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 666px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skilluxtablet .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
+  width               : 347px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 110px;
+  height              : 32px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skilluxtablet .bp3-group .bp3-invisionlogovector {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-invisionlogovector .bp3-combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-sympli {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-sympli .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 134px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin .bp3-group10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 41px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin .bp3-group10 .bp3-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 13px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin .bp3-group10 .bp3-combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin .bp3-group10 .bp3-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 13px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin .bp3-group10 .bp3-combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 8px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin .bp3-group10 .bp3-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 9px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin .bp3-group10 .bp3-path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin .bp3-group10 .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-zeplin .bp3-group10 .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 27px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-maze {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 20px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-maze .bp3-iconmaze {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  object-fit          : cover;
+}
+.bp3-skilluxtablet .bp3-group .bp3-cprot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-cprot .bp3-group11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 28px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-cprot .bp3-group11 .bp3-combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-cprot .bp3-group11 .bp3-combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-cprot .bp3-group11 .bp3-combinedshape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-framer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-group .bp3-framer .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-previous {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 460px;
+  height              : 105px;
+  width               : 99px;
+  position            : fixed;
+  margin              : 0;
+  left                : -20px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-previous .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-previous .bp3-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 124px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-previous .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 86px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-previous .bp3-group1 .bp3-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40.70%;
+  height              : 3.49%;
+  width               : 42.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-previous .bp3-group1 .bp3-prev {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -21.88%;
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 88.54%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp3-skilluxtablet .bp3-next {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -10px;
+  top                 : 460px;
+  height              : 105px;
+  width               : 105px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-next .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-next .bp3-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 124px;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-next .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 85px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-next .bp3-group1 .bp3-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 42.35%;
+  height              : 3.53%;
+  width               : 43.27%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-next .bp3-group1 .bp3-next1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 80.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : -19.23%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp3-skilluxtablet .bp3-logo {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 172px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-skilluxtablet .bp3-logo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 55px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skilluxtablet .bp3-logo:hover {
+  transform           : scale(0.9);
+}
+.bp3-skilluxtablet .bp3-logo .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-logo .bp3-kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 51.0px;
+}
+.bp3-skilluxtablet .bp3-logo .bp3-kseniapavlova-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skilluxtablet .bp3-viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 46px;
+  width               : 46px;
+  position            : fixed;
+  margin              : 0;
+  left                : 38px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-skilluxtablet .bp3-viewproject:hover {
+  transform           : scale(0.9);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 .bp3-rectangle9 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 .bp3-rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 .bp3-rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 .bp3-rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 .bp3-rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 .bp3-rectangle5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 .bp3-rectangle6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 .bp3-rectangle7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-viewproject .bp3-group37 .bp3-rectangle8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 42px;
+  top                 : 42px;
+  height              : 40px;
+  width               : 40px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-skilluxtablet .bp3-menu:hover {
+  transform           : scale(0.9);
+}
+.bp3-skilluxtablet .bp3-menu .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-menu .bp3-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skilluxtablet .bp3-menu .bp3-group1 .bp3-line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp3-skilluxtablet .bp3-menu .bp3-group1 .bp3-line31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp3-skilluxtablet .bp3-menu .bp3-group1 .bp3-line32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp1-skillux {
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
@@ -56,7 +2486,7 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.skillux .background {
+.bp1-skillux .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : -80px;
   height              : calc(100.00% + 160px);
@@ -68,7 +2498,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .menu {
+.bp1-skillux .bp1-menu {
   background-color    : rgba(255,255,255,0.0);
   width               : 76px;
   height              : 100%;
@@ -79,7 +2509,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .menu-layout-container {
+.bp1-skillux .bp1-menu-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 30px;
@@ -91,7 +2521,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skillux .menu .background1 {
+.bp1-skillux .bp1-menu .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 57px;
@@ -103,7 +2533,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .menu .menu1 {
+.bp1-skillux .bp1-menu .bp1-menu1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -124,10 +2554,10 @@ div {
   letter-spacing      : 10.5px;
   line-height         : 43.0px;
 }
-.skillux .menu .menu1:hover {
+.bp1-skillux .bp1-menu .bp1-menu1:hover {
   transform           : scale(0.9);
 }
-.skillux .logo {
+.bp1-skillux .bp1-logo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 55px;
@@ -141,10 +2571,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.skillux .logo:hover {
+.bp1-skillux .bp1-logo:hover {
   transform           : scale(0.9);
 }
-.skillux .logo .background1 {
+.bp1-skillux .bp1-logo .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 55px;
@@ -156,7 +2586,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .logo .kseniapavlova {
+.bp1-skillux .bp1-logo .bp1-kseniapavlova {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : auto;
@@ -175,7 +2605,7 @@ div {
   text-align          : center;
   line-height         : 57.0px;
 }
-.skillux .viewproject {
+.bp1-skillux .bp1-viewproject {
   background-color    : rgba(255,255,255,0.0);
   right               : 39px;
   top                 : 30px;
@@ -189,10 +2619,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.skillux .viewproject:hover {
+.bp1-skillux .bp1-viewproject:hover {
   transform           : scale(0.9);
 }
-.skillux .viewproject .background1 {
+.bp1-skillux .bp1-viewproject .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 57px;
@@ -204,7 +2634,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .viewproject .viewprojects {
+.bp1-skillux .bp1-viewproject .bp1-viewprojects {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -224,7 +2654,7 @@ div {
   letter-spacing      : 10.5px;
   line-height         : 43.0px;
 }
-.skillux .rectangle {
+.bp1-skillux .bp1-rectangle {
   background-color    : rgba(255,255,255,0.0);
   width               : 654px;
   height              : 100%;
@@ -235,7 +2665,7 @@ div {
   transform           : rotate(0deg);
   overflow            : hidden;
 }
-.skillux .rectangle-layout-container {
+.bp1-skillux .bp1-rectangle-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 110px;
@@ -247,7 +2677,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skillux .previous {
+.bp1-skillux .bp1-previous {
   background-color    : rgba(255,255,255,0.0);
   top                 : 386px;
   height              : 100px;
@@ -260,7 +2690,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .previous .background1 {
+.bp1-skillux .bp1-previous .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100px;
@@ -272,7 +2702,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .previous .rectangle1 {
+.bp1-skillux .bp1-previous .bp1-rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 118px;
@@ -284,7 +2714,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .previous .group1 {
+.bp1-skillux .bp1-previous .bp1-group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 101px;
@@ -296,7 +2726,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .previous .group1 .line2 {
+.bp1-skillux .bp1-previous .bp1-group1 .bp1-line2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 42.57%;
   height              : 2.97%;
@@ -308,7 +2738,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .previous .group1 .prev {
+.bp1-skillux .bp1-previous .bp1-group1 .bp1-prev {
   background-color    : rgba(255,255,255,0.0);
   right               : -24.27%;
   top                 : calc(50.00% - 26px);
@@ -328,7 +2758,7 @@ div {
   letter-spacing      : 13.0px;
   line-height         : 51.0px;
 }
-.skillux .previous .downinteraction1 {
+.bp1-skillux .bp1-previous .bp1-downinteraction1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 105px;
@@ -341,7 +2771,7 @@ div {
   -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
   transform           : rotate(90deg);
 }
-.skillux .previous .downinteraction1 .background2 {
+.bp1-skillux .bp1-previous .bp1-downinteraction1 .bp1-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -353,7 +2783,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .previous .downinteraction1 .group2 {
+.bp1-skillux .bp1-previous .bp1-downinteraction1 .bp1-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -365,7 +2795,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .previous .downinteraction1 .group2 .path40 {
+.bp1-skillux .bp1-previous .bp1-downinteraction1 .bp1-group2 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -377,7 +2807,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .previous .downinteraction1 .group2 .triangle {
+.bp1-skillux .bp1-previous .bp1-downinteraction1 .bp1-group2 .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -389,7 +2819,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.skillux .downinteraction {
+.bp1-skillux .bp1-downinteraction {
   background-color    : rgba(255,255,255,0.0);
   top                 : 608px;
   height              : 105px;
@@ -402,7 +2832,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .downinteraction .background1 {
+.bp1-skillux .bp1-downinteraction .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -414,7 +2844,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .downinteraction .group1 {
+.bp1-skillux .bp1-downinteraction .bp1-group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -426,7 +2856,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .downinteraction .group1 .path40 {
+.bp1-skillux .bp1-downinteraction .bp1-group1 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -438,7 +2868,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .downinteraction .group1 .triangle {
+.bp1-skillux .bp1-downinteraction .bp1-group1 .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -450,7 +2880,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.skillux .skillname {
+.bp1-skillux .bp1-skillname {
   background-color    : rgba(255,255,255,0.0);
   width               : 531px;
   margin-right        : 0px;
@@ -462,7 +2892,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .skillname-layout-container {
+.bp1-skillux .bp1-skillname-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 294px;
@@ -474,7 +2904,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skillux .skillname .uxdesign {
+.bp1-skillux .bp1-skillname .bp1-uxdesign {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 251px;
@@ -486,7 +2916,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group {
+.bp1-skillux .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   width               : 694px;
   height              : 100%;
@@ -496,7 +2926,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group-layout-container {
+.bp1-skillux .bp1-group-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 1462px;
@@ -508,7 +2938,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skillux .group .group3 {
+.bp1-skillux .bp1-group .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 76px;
   height              : 52px;
@@ -520,7 +2950,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .invisionlogovector {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-invisionlogovector {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 50px;
@@ -532,7 +2962,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .invisionlogovector .combinedshape {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-invisionlogovector .bp1-combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 50px;
@@ -544,7 +2974,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .invisionlogovector .fill3 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-invisionlogovector .bp1-fill3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 18px;
   height              : 22px;
@@ -556,7 +2986,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .sympli {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-sympli {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 50px;
@@ -568,7 +2998,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .sympli .bitmap {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-sympli .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 50px;
@@ -580,7 +3010,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .sympli .symplilogoremovebgpreview {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-sympli .bp1-symplilogoremovebgpreview {
   background-color    : rgba(255,255,255,0.0);
   top                 : 5px;
   height              : 38px;
@@ -592,7 +3022,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 52px;
@@ -604,7 +3034,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .group10 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-group10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 52px;
@@ -616,7 +3046,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .group10 .path {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-group10 .bp1-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 24px;
   height              : 19px;
@@ -628,7 +3058,7 @@ div {
   -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
   transform           : rotate(-20deg);
 }
-.skillux .group .group3 .zeplin .group10 .combinedshape {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-group10 .bp1-combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 17px;
@@ -640,7 +3070,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .group10 .path1 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-group10 .bp1-path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 9px;
   height              : 19px;
@@ -652,7 +3082,7 @@ div {
   -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
   transform           : rotate(-20deg);
 }
-.skillux .group .group3 .zeplin .group10 .combinedshape1 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-group10 .bp1-combinedshape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 12px;
@@ -664,7 +3094,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .group10 .path2 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-group10 .bp1-path2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 24px;
   height              : 13px;
@@ -676,7 +3106,7 @@ div {
   -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
   transform           : rotate(-20deg);
 }
-.skillux .group .group3 .zeplin .group10 .path3 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-group10 .bp1-path3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 14px;
   height              : 14px;
@@ -688,7 +3118,7 @@ div {
   -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
   transform           : rotate(-20deg);
 }
-.skillux .group .group3 .zeplin .group10 .shape {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-group10 .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 52px;
@@ -700,7 +3130,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .group10 .shape1 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-group10 .bp1-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 43px;
@@ -712,7 +3142,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .logotype {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-logotype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 19px;
   height              : 14px;
@@ -724,7 +3154,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .logotype .rectangle76copy2 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-logotype .bp1-rectangle76copy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -736,7 +3166,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .logotype .rectangle76copy5 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-logotype .bp1-rectangle76copy5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -748,7 +3178,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .logotype .rectangle82copy {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-logotype .bp1-rectangle82copy {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 14px;
@@ -760,7 +3190,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .logotype .rectangle82copy2 {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-logotype .bp1-rectangle82copy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -772,7 +3202,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .logotype .shape {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-logotype .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -784,7 +3214,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group3 .zeplin .logotype .path {
+.bp1-skillux .bp1-group .bp1-group3 .bp1-zeplin .bp1-logotype .bp1-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -796,7 +3226,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 {
+.bp1-skillux .bp1-group .bp1-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 62px;
@@ -808,7 +3238,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 .maze {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-maze {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : 41px;
@@ -820,7 +3250,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 .maze .iconmaze {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-maze .bp1-iconmaze {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 40px;
@@ -833,7 +3263,7 @@ div {
   transform           : rotate(0deg);
   object-fit          : cover;
 }
-.skillux .group .group2 .maze .maze1 {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-maze .bp1-maze1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -851,7 +3281,7 @@ div {
   letter-spacing      : -1.93px;
   line-height         : 41.0px;
 }
-.skillux .group .group2 .cprot {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-cprot {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 62px;
@@ -863,7 +3293,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 .cprot .group11 {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-cprot .bp1-group11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 8px;
   height              : 41px;
@@ -875,7 +3305,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 .cprot .group11 .combinedshape {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-cprot .bp1-group11 .bp1-combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 40px;
@@ -887,7 +3317,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 .cprot .group11 .combinedshape1 {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-cprot .bp1-group11 .bp1-combinedshape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -899,7 +3329,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 .cprot .group11 .combinedshape2 {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-cprot .bp1-group11 .bp1-combinedshape2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 26px;
   height              : 14px;
@@ -911,7 +3341,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 .cprot .prototype {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-cprot .bp1-prototype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -929,13 +3359,13 @@ div {
   letter-spacing      : 2.67px;
   line-height         : 62.0px;
 }
-.skillux .group .group2 .cprot .prototype .span1 {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-cprot .bp1-prototype .bp1-span1 {
   
 }
-.skillux .group .group2 .cprot .prototype .span2 {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-cprot .bp1-prototype .bp1-span2 {
   letter-spacing      : 2.54px;
 }
-.skillux .group .group2 .framer {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-framer {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
   height              : 50px;
@@ -947,7 +3377,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 .framer .bitmap {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-framer .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 50px;
@@ -959,7 +3389,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .group .group2 .framer .bitmap1 {
+.bp1-skillux .bp1-group .bp1-group2 .bp1-framer .bp1-bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : 24px;
@@ -971,7 +3401,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .discoverdefinede {
+.bp1-skillux .bp1-discoverdefinede {
   background-color    : rgba(255,255,255,0.0);
   width               : auto;
   height              : auto;
@@ -989,7 +3419,7 @@ div {
   letter-spacing      : 8.54px;
   line-height         : 72.0px;
 }
-.skillux .discoverdefinede-layout-container {
+.bp1-skillux .bp1-discoverdefinede-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 1124px;
@@ -1001,7 +3431,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skillux .fromuserresearcht {
+.bp1-skillux .bp1-fromuserresearcht {
   background-color    : rgba(255,255,255,0.0);
   width               : 939px;
   margin-right        : -0px;
@@ -1019,7 +3449,7 @@ div {
   letter-spacing      : 1.8px;
   line-height         : 34.0px;
 }
-.skillux .fromuserresearcht-layout-container {
+.bp1-skillux .bp1-fromuserresearcht-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 1263px;
@@ -1031,7 +3461,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skillux .skills {
+.bp1-skillux .bp1-skills {
   background-color    : rgba(255,255,255,0.0);
   width               : auto;
   height              : auto;
@@ -1048,7 +3478,7 @@ div {
   text-align          : left;
   line-height         : 41.0px;
 }
-.skillux .skills-layout-container {
+.bp1-skillux .bp1-skills-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 506px;
@@ -1060,7 +3490,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skillux .next {
+.bp1-skillux .bp1-next {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 388px;
@@ -1073,7 +3503,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .next .background1 {
+.bp1-skillux .bp1-next .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100px;
@@ -1085,7 +3515,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .next .rectangle1 {
+.bp1-skillux .bp1-next .bp1-rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 118px;
@@ -1097,7 +3527,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .next .group1 {
+.bp1-skillux .bp1-next .bp1-group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 99px;
@@ -1109,7 +3539,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .next .group1 .line2 {
+.bp1-skillux .bp1-next .bp1-group1 .bp1-line2 {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 42.42%;
@@ -1121,7 +3551,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .next .group1 .next1 {
+.bp1-skillux .bp1-next .bp1-group1 .bp1-next1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 26px);
   height              : 51px;
@@ -1141,7 +3571,7 @@ div {
   letter-spacing      : 13.0px;
   line-height         : 51.0px;
 }
-.skillux .next .downinteraction1 {
+.bp1-skillux .bp1-next .bp1-downinteraction1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 105px;
@@ -1154,7 +3584,7 @@ div {
   -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
   transform           : rotate(-90deg);
 }
-.skillux .next .downinteraction1 .background2 {
+.bp1-skillux .bp1-next .bp1-downinteraction1 .bp1-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -1166,7 +3596,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .next .downinteraction1 .group2 {
+.bp1-skillux .bp1-next .bp1-downinteraction1 .bp1-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -1178,7 +3608,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .next .downinteraction1 .group2 .path40 {
+.bp1-skillux .bp1-next .bp1-downinteraction1 .bp1-group2 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -1190,7 +3620,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .next .downinteraction1 .group2 .triangle {
+.bp1-skillux .bp1-next .bp1-downinteraction1 .bp1-group2 .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -1202,7 +3632,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.skillux .social {
+.bp1-skillux .bp1-social {
   background-color    : rgba(255,255,255,0.0);
   width               : 193px;
   height              : 100%;
@@ -1213,7 +3643,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social-layout-container {
+.bp1-skillux .bp1-social-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
@@ -1225,7 +3655,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skillux .social .background1 {
+.bp1-skillux .bp1-social .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1237,7 +3667,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social .group5 {
+.bp1-skillux .bp1-social .bp1-group5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1249,7 +3679,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social .group5 .bitmap {
+.bp1-skillux .bp1-social .bp1-group5 .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1261,7 +3691,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social .group5 .bitmap1 {
+.bp1-skillux .bp1-social .bp1-group5 .bp1-bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1273,7 +3703,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social .group6 {
+.bp1-skillux .bp1-social .bp1-group6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1285,7 +3715,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social .group6 .bitmap {
+.bp1-skillux .bp1-social .bp1-group6 .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1297,7 +3727,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social .group6 .bitmap1 {
+.bp1-skillux .bp1-social .bp1-group6 .bp1-bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1309,7 +3739,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social .group7 {
+.bp1-skillux .bp1-social .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 19px;
@@ -1321,7 +3751,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social .group7 .shape {
+.bp1-skillux .bp1-social .bp1-group7 .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1333,7 +3763,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skillux .social .group7 .shape1 {
+.bp1-skillux .bp1-social .bp1-group7 .bp1-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1423,4 +3853,37 @@ div {
   {
       opacity: 1;
     }
+}
+@media screen and (max-width: 767px) {
+  .bp2-skilluxiphonese {
+    display             : block;
+  }
+  .bp3-skilluxtablet {
+    display             : none;
+  }
+  .bp1-skillux {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp2-skilluxiphonese {
+    display             : none;
+  }
+  .bp3-skilluxtablet {
+    display             : block;
+  }
+  .bp1-skillux {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bp2-skilluxiphonese {
+    display             : none;
+  }
+  .bp3-skilluxtablet {
+    display             : none;
+  }
+  .bp1-skillux {
+    display             : block;
+  }
 }

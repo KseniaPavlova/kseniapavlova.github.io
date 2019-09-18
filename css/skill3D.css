@@ -5,10 +5,6 @@
                           src: url('../fonts/SofiaProRegular.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SofiaProUltraLight";
-                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SofiaProSemiBold";
                           src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
                         }
@@ -20,6 +16,10 @@
                           font-family: "SofiaProBold";
                           src: url('../fonts/SofiaProBold.ttf') format("truetype");
                         }
+                        @font-face {
+                          font-family: "SofiaProUltraLight";
+                          src: url('../fonts/SofiaProUltraLight.ttf') format("truetype");
+                        }
                         
 .anima-overlay {
   position            : absolute;
@@ -29,7 +29,961 @@
   width               : 100%;
   height              : 100%;
 }
-.skill3d {
+.bp2-skill3diphonese {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 1136px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-skill3diphonese .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -80px;
+  height              : calc(100.00% + 160px);
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 230px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.bp2-skill3diphonese .bp2-rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 111px;
+  align-items         : center;
+  height              : 230px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skill3diphonese .bp2-demonstrateconcept {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 234px;
+  margin-right        : -0px;
+  height              : auto;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.42px;
+  line-height         : 29.0px;
+}
+.bp2-skill3diphonese .bp2-demonstrateconcept-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 523px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skill3diphonese .bp2-demonstrateconcept .bp2-span1 {
+  
+}
+.bp2-skill3diphonese .bp2-demonstrateconcept .bp2-span2 {
+  
+}
+.bp2-skill3diphonese .bp2-prettywebsitesare {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 255px;
+  margin-right        : -0px;
+  height              : auto;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 20.0px;
+}
+.bp2-skill3diphonese .bp2-prettywebsitesare-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 632px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skill3diphonese .bp2-prettywebsitesare .bp2-span1 {
+  
+}
+.bp2-skill3diphonese .bp2-prettywebsitesare .bp2-span2 {
+  
+}
+.bp2-skill3diphonese .bp2-social {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 30px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skill3diphonese .bp2-social .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social .bp2-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social .bp2-group5 .bp2-bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social .bp2-group5 .bp2-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social .bp2-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social .bp2-group6 .bp2-bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social .bp2-group6 .bp2-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social .bp2-group7 .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-social .bp2-group7 .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
+  width               : 139px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-bitmap-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 115px;
+  height              : 35px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skill3diphonese .bp2-skillname {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 160px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-skillname-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 194px;
+  align-items         : center;
+  height              : 57px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skill3diphonese .bp2-skillname .bp2-a3dmodeling {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-skills {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  margin-right        : -0px;
+  height              : auto;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-skill3diphonese .bp2-skills-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 257px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skill3diphonese .bp2-downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 368px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 16px);
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-downinteraction .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-downinteraction .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-downinteraction .bp2-group .bp2-path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-downinteraction .bp2-group .bp2-triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.bp2-skill3diphonese .bp2-previous {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 220px;
+  height              : 105px;
+  width               : 99px;
+  position            : fixed;
+  margin              : 0;
+  left                : -30px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-previous .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-previous .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 124px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-previous .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 86px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-previous .bp2-group .bp2-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40.70%;
+  height              : 3.49%;
+  width               : 42.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-previous .bp2-group .bp2-prev {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -21.88%;
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 88.54%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp2-skill3diphonese .bp2-next {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -30px;
+  top                 : 230px;
+  height              : 95px;
+  width               : 105px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-next .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 95px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-next .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 112px;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-next .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 85px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-next .bp2-group .bp2-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 42.35%;
+  height              : 3.53%;
+  width               : 43.27%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-next .bp2-group .bp2-next1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 80.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : -19.23%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp2-skill3diphonese .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 172px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-skill3diphonese .bp2-logo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 55px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skill3diphonese .bp2-logo:hover {
+  transform           : scale(0.9);
+}
+.bp2-skill3diphonese .bp2-logo .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-logo .bp2-kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 51.0px;
+}
+.bp2-skill3diphonese .bp2-logo .bp2-kseniapavlova-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-skill3diphonese .bp2-viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 46px;
+  width               : 46px;
+  position            : fixed;
+  margin              : 0;
+  left                : 15px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-skill3diphonese .bp2-viewproject:hover {
+  transform           : scale(0.9);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 .bp2-rectangle9 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 .bp2-rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 .bp2-rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 .bp2-rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 .bp2-rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 .bp2-rectangle5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 .bp2-rectangle6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 .bp2-rectangle7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-viewproject .bp2-group37 .bp2-rectangle8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 15px;
+  top                 : 42px;
+  height              : 40px;
+  width               : 40px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-skill3diphonese .bp2-menu:hover {
+  transform           : scale(0.9);
+}
+.bp2-skill3diphonese .bp2-menu .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-menu .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-skill3diphonese .bp2-menu .bp2-group .bp2-line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-skill3diphonese .bp2-menu .bp2-group .bp2-line31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-skill3diphonese .bp2-menu .bp2-group .bp2-line32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp1-skill3d {
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
@@ -56,7 +1010,7 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.skill3d .background {
+.bp1-skill3d .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : -80px;
   height              : calc(100.00% + 160px);
@@ -68,7 +1022,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .menu {
+.bp1-skill3d .bp1-menu {
   background-color    : rgba(255,255,255,0.0);
   width               : 76px;
   height              : 100%;
@@ -79,7 +1033,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .menu-layout-container {
+.bp1-skill3d .bp1-menu-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 30px;
@@ -91,7 +1045,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skill3d .menu .background1 {
+.bp1-skill3d .bp1-menu .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 57px;
@@ -103,7 +1057,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .menu .menu1 {
+.bp1-skill3d .bp1-menu .bp1-menu1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -124,10 +1078,10 @@ div {
   letter-spacing      : 10.5px;
   line-height         : 43.0px;
 }
-.skill3d .menu .menu1:hover {
+.bp1-skill3d .bp1-menu .bp1-menu1:hover {
   transform           : scale(0.9);
 }
-.skill3d .logo {
+.bp1-skill3d .bp1-logo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 55px;
@@ -141,10 +1095,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.skill3d .logo:hover {
+.bp1-skill3d .bp1-logo:hover {
   transform           : scale(0.9);
 }
-.skill3d .logo .background1 {
+.bp1-skill3d .bp1-logo .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 55px;
@@ -156,7 +1110,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .logo .kseniapavlova {
+.bp1-skill3d .bp1-logo .bp1-kseniapavlova {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : auto;
@@ -175,7 +1129,7 @@ div {
   text-align          : center;
   line-height         : 57.0px;
 }
-.skill3d .viewproject {
+.bp1-skill3d .bp1-viewproject {
   background-color    : rgba(255,255,255,0.0);
   right               : 39px;
   top                 : 30px;
@@ -189,10 +1143,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.skill3d .viewproject:hover {
+.bp1-skill3d .bp1-viewproject:hover {
   transform           : scale(0.9);
 }
-.skill3d .viewproject .background1 {
+.bp1-skill3d .bp1-viewproject .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 57px;
@@ -204,7 +1158,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .viewproject .viewprojects {
+.bp1-skill3d .bp1-viewproject .bp1-viewprojects {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -224,7 +1178,7 @@ div {
   letter-spacing      : 10.5px;
   line-height         : 43.0px;
 }
-.skill3d .rectangle {
+.bp1-skill3d .bp1-rectangle {
   background-color    : rgba(255,255,255,0.0);
   width               : 654px;
   height              : 100%;
@@ -235,7 +1189,7 @@ div {
   transform           : rotate(0deg);
   overflow            : hidden;
 }
-.skill3d .rectangle-layout-container {
+.bp1-skill3d .bp1-rectangle-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 110px;
@@ -247,7 +1201,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skill3d .previous {
+.bp1-skill3d .bp1-previous {
   background-color    : rgba(255,255,255,0.0);
   top                 : 386px;
   height              : 100px;
@@ -260,7 +1214,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .previous .background1 {
+.bp1-skill3d .bp1-previous .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100px;
@@ -272,7 +1226,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .previous .rectangle1 {
+.bp1-skill3d .bp1-previous .bp1-rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 118px;
@@ -284,7 +1238,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .previous .group {
+.bp1-skill3d .bp1-previous .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 101px;
@@ -296,7 +1250,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .previous .group .line2 {
+.bp1-skill3d .bp1-previous .bp1-group .bp1-line2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 42.57%;
   height              : 2.97%;
@@ -308,7 +1262,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .previous .group .prev {
+.bp1-skill3d .bp1-previous .bp1-group .bp1-prev {
   background-color    : rgba(255,255,255,0.0);
   right               : -24.27%;
   top                 : calc(50.00% - 26px);
@@ -328,7 +1282,7 @@ div {
   letter-spacing      : 13.0px;
   line-height         : 51.0px;
 }
-.skill3d .previous .downinteraction1 {
+.bp1-skill3d .bp1-previous .bp1-downinteraction1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 105px;
@@ -341,7 +1295,7 @@ div {
   -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
   transform           : rotate(90deg);
 }
-.skill3d .previous .downinteraction1 .background2 {
+.bp1-skill3d .bp1-previous .bp1-downinteraction1 .bp1-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -353,7 +1307,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .previous .downinteraction1 .group1 {
+.bp1-skill3d .bp1-previous .bp1-downinteraction1 .bp1-group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -365,7 +1319,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .previous .downinteraction1 .group1 .path40 {
+.bp1-skill3d .bp1-previous .bp1-downinteraction1 .bp1-group1 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -377,7 +1331,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .previous .downinteraction1 .group1 .triangle {
+.bp1-skill3d .bp1-previous .bp1-downinteraction1 .bp1-group1 .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -389,7 +1343,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.skill3d .downinteraction {
+.bp1-skill3d .bp1-downinteraction {
   background-color    : rgba(255,255,255,0.0);
   top                 : 608px;
   height              : 105px;
@@ -402,7 +1356,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .downinteraction .background1 {
+.bp1-skill3d .bp1-downinteraction .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -414,7 +1368,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .downinteraction .group {
+.bp1-skill3d .bp1-downinteraction .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -426,7 +1380,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .downinteraction .group .path40 {
+.bp1-skill3d .bp1-downinteraction .bp1-group .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -438,7 +1392,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .downinteraction .group .triangle {
+.bp1-skill3d .bp1-downinteraction .bp1-group .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -450,7 +1404,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.skill3d .skillname {
+.bp1-skill3d .bp1-skillname {
   background-color    : rgba(255,255,255,0.0);
   width               : 679px;
   margin-right        : 0px;
@@ -462,7 +1416,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .skillname-layout-container {
+.bp1-skill3d .bp1-skillname-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 294px;
@@ -474,7 +1428,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skill3d .skillname .a3dmodeling {
+.bp1-skill3d .bp1-skillname .bp1-a3dmodeling {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 251px;
@@ -486,7 +1440,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .bitmap {
+.bp1-skill3d .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   margin-right        : -0px;
   width               : 197px;
@@ -498,7 +1452,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .bitmap-layout-container {
+.bp1-skill3d .bp1-bitmap-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
@@ -510,7 +1464,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skill3d .demonstrateconcept {
+.bp1-skill3d .bp1-demonstrateconcept {
   background-color    : rgba(255,255,255,0.0);
   width               : auto;
   height              : auto;
@@ -528,7 +1482,7 @@ div {
   letter-spacing      : 8.54px;
   line-height         : 72.0px;
 }
-.skill3d .demonstrateconcept-layout-container {
+.bp1-skill3d .bp1-demonstrateconcept-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 1124px;
@@ -540,7 +1494,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skill3d .prettywebsitesare {
+.bp1-skill3d .bp1-prettywebsitesare {
   background-color    : rgba(255,255,255,0.0);
   width               : 964px;
   height              : auto;
@@ -556,7 +1510,7 @@ div {
   letter-spacing      : 1.8px;
   line-height         : 34.0px;
 }
-.skill3d .prettywebsitesare-layout-container {
+.bp1-skill3d .bp1-prettywebsitesare-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 1255px;
@@ -568,7 +1522,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skill3d .skills {
+.bp1-skill3d .bp1-skills {
   background-color    : rgba(255,255,255,0.0);
   width               : auto;
   height              : auto;
@@ -585,7 +1539,7 @@ div {
   text-align          : left;
   line-height         : 41.0px;
 }
-.skill3d .skills-layout-container {
+.bp1-skill3d .bp1-skills-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 506px;
@@ -597,7 +1551,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skill3d .next {
+.bp1-skill3d .bp1-next {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 388px;
@@ -610,7 +1564,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .next .background1 {
+.bp1-skill3d .bp1-next .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100px;
@@ -622,7 +1576,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .next .rectangle1 {
+.bp1-skill3d .bp1-next .bp1-rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 118px;
@@ -634,7 +1588,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .next .group {
+.bp1-skill3d .bp1-next .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 99px;
@@ -646,7 +1600,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .next .group .line2 {
+.bp1-skill3d .bp1-next .bp1-group .bp1-line2 {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 42.42%;
@@ -658,7 +1612,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .next .group .next1 {
+.bp1-skill3d .bp1-next .bp1-group .bp1-next1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 26px);
   height              : 51px;
@@ -678,7 +1632,7 @@ div {
   letter-spacing      : 13.0px;
   line-height         : 51.0px;
 }
-.skill3d .next .downinteraction1 {
+.bp1-skill3d .bp1-next .bp1-downinteraction1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 105px;
@@ -691,7 +1645,7 @@ div {
   -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
   transform           : rotate(-90deg);
 }
-.skill3d .next .downinteraction1 .background2 {
+.bp1-skill3d .bp1-next .bp1-downinteraction1 .bp1-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -703,7 +1657,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .next .downinteraction1 .group1 {
+.bp1-skill3d .bp1-next .bp1-downinteraction1 .bp1-group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -715,7 +1669,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .next .downinteraction1 .group1 .path40 {
+.bp1-skill3d .bp1-next .bp1-downinteraction1 .bp1-group1 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -727,7 +1681,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .next .downinteraction1 .group1 .triangle {
+.bp1-skill3d .bp1-next .bp1-downinteraction1 .bp1-group1 .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -739,7 +1693,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.skill3d .social {
+.bp1-skill3d .bp1-social {
   background-color    : rgba(255,255,255,0.0);
   width               : 193px;
   height              : 100%;
@@ -750,7 +1704,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social-layout-container {
+.bp1-skill3d .bp1-social-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
@@ -762,7 +1716,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.skill3d .social .background1 {
+.bp1-skill3d .bp1-social .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -774,7 +1728,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social .group5 {
+.bp1-skill3d .bp1-social .bp1-group5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -786,7 +1740,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social .group5 .bitmap2 {
+.bp1-skill3d .bp1-social .bp1-group5 .bp1-bitmap2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -798,7 +1752,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social .group5 .bitmap1 {
+.bp1-skill3d .bp1-social .bp1-group5 .bp1-bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -810,7 +1764,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social .group6 {
+.bp1-skill3d .bp1-social .bp1-group6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -822,7 +1776,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social .group6 .bitmap2 {
+.bp1-skill3d .bp1-social .bp1-group6 .bp1-bitmap2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -834,7 +1788,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social .group6 .bitmap1 {
+.bp1-skill3d .bp1-social .bp1-group6 .bp1-bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -846,7 +1800,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social .group7 {
+.bp1-skill3d .bp1-social .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 19px;
@@ -858,7 +1812,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social .group7 .shape {
+.bp1-skill3d .bp1-social .bp1-group7 .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -870,7 +1824,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.skill3d .social .group7 .shape1 {
+.bp1-skill3d .bp1-social .bp1-group7 .bp1-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -960,4 +1914,989 @@ div {
   {
       opacity: 1;
     }
+}
+.bp3-skill3dtablet {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-skill3dtablet .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -80px;
+  height              : calc(100.00% + 160px);
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 405px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.bp3-skill3dtablet .bp3-rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 130px;
+  align-items         : center;
+  height              : 405px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skill3dtablet .bp3-downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 468px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 16px);
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-downinteraction .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-downinteraction .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-downinteraction .bp3-group .bp3-path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-downinteraction .bp3-group .bp3-triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.bp3-skill3dtablet .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -0px;
+  width               : 197px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-bitmap-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 102px;
+  height              : 50px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skill3dtablet .bp3-social {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 30px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skill3dtablet .bp3-social .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social .bp3-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social .bp3-group5 .bp3-bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social .bp3-group5 .bp3-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social .bp3-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social .bp3-group6 .bp3-bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social .bp3-group6 .bp3-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social .bp3-group7 .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-social .bp3-group7 .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-skillname {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 388px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-skillname-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 248px;
+  align-items         : center;
+  height              : 144px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skill3dtablet .bp3-skillname .bp3-a3dmodeling {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 144px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-skills {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+}
+.bp3-skill3dtablet .bp3-skills-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 380px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skill3dtablet .bp3-demonstrateconcept {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.12px;
+  line-height         : 33.0px;
+}
+.bp3-skill3dtablet .bp3-demonstrateconcept-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 593px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skill3dtablet .bp3-demonstrateconcept .bp3-span1 {
+  
+}
+.bp3-skill3dtablet .bp3-demonstrateconcept .bp3-span2 {
+  
+}
+.bp3-skill3dtablet .bp3-prettywebsitesare {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 541px;
+  margin-right        : -0px;
+  height              : auto;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 24.0px;
+}
+.bp3-skill3dtablet .bp3-prettywebsitesare-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 666px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skill3dtablet .bp3-prettywebsitesare .bp3-span1 {
+  
+}
+.bp3-skill3dtablet .bp3-prettywebsitesare .bp3-span2 {
+  
+}
+.bp3-skill3dtablet .bp3-previous {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 460px;
+  height              : 105px;
+  width               : 99px;
+  position            : fixed;
+  margin              : 0;
+  left                : -20px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-previous .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-previous .bp3-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 124px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-previous .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 86px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-previous .bp3-group .bp3-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40.70%;
+  height              : 3.49%;
+  width               : 42.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-previous .bp3-group .bp3-prev {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -21.88%;
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 88.54%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp3-skill3dtablet .bp3-next {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -10px;
+  top                 : 460px;
+  height              : 105px;
+  width               : 105px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-next .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-next .bp3-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 124px;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-next .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 85px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-next .bp3-group .bp3-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 42.35%;
+  height              : 3.53%;
+  width               : 43.27%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-next .bp3-group .bp3-next1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 80.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : -19.23%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp3-skill3dtablet .bp3-logo {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 172px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-skill3dtablet .bp3-logo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 55px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skill3dtablet .bp3-logo:hover {
+  transform           : scale(0.9);
+}
+.bp3-skill3dtablet .bp3-logo .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-logo .bp3-kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 51.0px;
+}
+.bp3-skill3dtablet .bp3-logo .bp3-kseniapavlova-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-skill3dtablet .bp3-viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 46px;
+  width               : 46px;
+  position            : fixed;
+  margin              : 0;
+  left                : 38px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-skill3dtablet .bp3-viewproject:hover {
+  transform           : scale(0.9);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 .bp3-rectangle9 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 .bp3-rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 .bp3-rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 .bp3-rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 .bp3-rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 .bp3-rectangle5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 .bp3-rectangle6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 .bp3-rectangle7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-viewproject .bp3-group37 .bp3-rectangle8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 42px;
+  top                 : 42px;
+  height              : 40px;
+  width               : 40px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-skill3dtablet .bp3-menu:hover {
+  transform           : scale(0.9);
+}
+.bp3-skill3dtablet .bp3-menu .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-menu .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-skill3dtablet .bp3-menu .bp3-group .bp3-line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp3-skill3dtablet .bp3-menu .bp3-group .bp3-line31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp3-skill3dtablet .bp3-menu .bp3-group .bp3-line32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 767px) {
+  .bp2-skill3diphonese {
+    display             : block;
+  }
+  .bp3-skill3dtablet {
+    display             : none;
+  }
+  .bp1-skill3d {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp2-skill3diphonese {
+    display             : none;
+  }
+  .bp3-skill3dtablet {
+    display             : block;
+  }
+  .bp1-skill3d {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bp2-skill3diphonese {
+    display             : none;
+  }
+  .bp3-skill3dtablet {
+    display             : none;
+  }
+  .bp1-skill3d {
+    display             : block;
+  }
 }

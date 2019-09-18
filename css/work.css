@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Unica+One:400|Teko:500,300,400');
 
 @font-face {
-                          font-family: "SofiaProSemiBold";
-                          src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SofiaProRegular";
                           src: url('../fonts/SofiaProRegular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SofiaProSemiBold";
+                          src: url('../fonts/SofiaProSemiBold.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "OpenSans-Regular";
@@ -29,7 +29,1076 @@
   width               : 100%;
   height              : 100%;
 }
-.work {
+.bp2-workiphonese {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 1405px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-workiphonese .bp2-backgroundwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 568px;
+  width               : calc(100.00% + 195px);
+  position            : absolute;
+  margin              : 0;
+  left                : -98px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-backgroundwork .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 568px;
+  width               : 515px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-backgroundwork .bp2-backgroundwork1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 568px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-backgroundwork .bp2-a6 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 601px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-backgroundwork .bp2-a6-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 97px;
+  align-items         : center;
+  height              : 272px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-workiphonese .bp2-rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 568px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+}
+.bp2-workiphonese .bp2-namework {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 95px;
+  margin-right        : 0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : -0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-namework-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 194px;
+  align-items         : center;
+  height              : 57px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-workiphonese .bp2-namework .bp2-bushi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 40.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 57.0px;
+}
+.bp2-workiphonese .bp2-illustration {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 21.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.bp2-workiphonese .bp2-illustration-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 257px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-workiphonese .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1020px;
+  height              : 385px;
+  width               : calc(100.00% + 56px);
+  position            : absolute;
+  margin              : 0;
+  left                : -27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-display2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 43px;
+  height              : 341px;
+  width               : calc(100.00% + 21px);
+  position            : absolute;
+  margin              : 0;
+  left                : -10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-display2 .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  position            : absolute;
+  top                 : 0px;
+  left                : 0px;
+  margin              : 0;
+  width               : 100%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 568px;
+  height              : 401px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 388px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 16px);
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-downinteraction .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-downinteraction .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-downinteraction .bp2-group .bp2-path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-downinteraction .bp2-group .bp2-triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.bp2-workiphonese .bp2-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 223px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-group4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 632px;
+  align-items         : center;
+  height              : 342px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-workiphonese .bp2-group4 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 273px;
+  width               : 223px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-group4 .bp2-group2 .bp2-bushi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProSemiBold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(60, 60, 60, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.67px;
+  line-height         : 24.0px;
+}
+.bp2-workiphonese .bp2-group4 .bp2-group2 .bp2-thisillustrationwa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : 223px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(60, 60, 60, 1.0);
+  text-align          : left;
+  line-height         : 32.0px;
+}
+.bp2-workiphonese .bp2-group4 .bp2-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 303px;
+  height              : 39px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-workiphonese .bp2-group4 .bp2-group3:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.bp2-workiphonese .bp2-group4 .bp2-group3 .bp2-rectangle3 {
+  background-color    : rgba(13, 13, 11, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-group4 .bp2-group3 .bp2-buy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.01px;
+  line-height         : 24.0px;
+}
+.bp2-workiphonese .bp2-group4 .bp2-group3 .bp2-buy .bp2-span1 {
+  
+}
+.bp2-workiphonese .bp2-group4 .bp2-group3 .bp2-buy .bp2-span2 {
+  letter-spacing      : 1.34px;
+}
+.bp2-workiphonese .bp2-social {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 30px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-workiphonese .bp2-social .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social .bp2-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social .bp2-group5 .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social .bp2-group5 .bp2-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social .bp2-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social .bp2-group6 .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social .bp2-group6 .bp2-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social .bp2-group7 .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-social .bp2-group7 .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-previous {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 220px;
+  height              : 105px;
+  width               : 99px;
+  position            : fixed;
+  margin              : 0;
+  left                : -30px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-previous .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-previous .bp2-rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 124px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-previous .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 86px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-previous .bp2-group .bp2-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40.70%;
+  height              : 3.49%;
+  width               : 42.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-previous .bp2-group .bp2-prev {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -21.88%;
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 88.54%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp2-workiphonese .bp2-next {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -30px;
+  top                 : 230px;
+  height              : 95px;
+  width               : 105px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-next .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 95px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-next .bp2-rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 112px;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-next .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 85px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-next .bp2-group .bp2-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 42.35%;
+  height              : 3.53%;
+  width               : 43.27%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-next .bp2-group .bp2-next1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 80.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : -19.23%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp2-workiphonese .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 172px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-workiphonese .bp2-logo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 55px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-workiphonese .bp2-logo:hover {
+  transform           : scale(0.9);
+}
+.bp2-workiphonese .bp2-logo .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-logo .bp2-kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 51.0px;
+}
+.bp2-workiphonese .bp2-logo .bp2-kseniapavlova-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-workiphonese .bp2-viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 46px;
+  width               : 46px;
+  position            : fixed;
+  margin              : 0;
+  left                : 15px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-workiphonese .bp2-viewproject:hover {
+  transform           : scale(0.9);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle9 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle11 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle21 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-viewproject .bp2-group37 .bp2-rectangle8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 15px;
+  top                 : 42px;
+  height              : 40px;
+  width               : 40px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-workiphonese .bp2-menu:hover {
+  transform           : scale(0.9);
+}
+.bp2-workiphonese .bp2-menu .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-menu .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-workiphonese .bp2-menu .bp2-group .bp2-line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-workiphonese .bp2-menu .bp2-group .bp2-line31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-workiphonese .bp2-menu .bp2-group .bp2-line32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp1-work {
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
@@ -56,7 +1125,7 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.work .backgroundwork {
+.bp1-work .bp1-backgroundwork {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 960px;
@@ -69,7 +1138,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .backgroundwork .background {
+.bp1-work .bp1-backgroundwork .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 960px;
@@ -81,7 +1150,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .backgroundwork .backgroundwork1 {
+.bp1-work .bp1-backgroundwork .bp1-backgroundwork1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 960px;
@@ -93,7 +1162,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .backgroundwork .a6 {
+.bp1-work .bp1-backgroundwork .bp1-a6 {
   background-color    : rgba(255,255,255,0.0);
   width               : 1432px;
   height              : 100%;
@@ -103,7 +1172,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .backgroundwork .a6-layout-container {
+.bp1-work .bp1-backgroundwork .bp1-a6-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 164px;
@@ -115,7 +1184,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work .rectangle {
+.bp1-work .bp1-rectangle {
   background-color    : rgba(0, 0, 0, 1.0);
   top                 : 0px;
   height              : 960px;
@@ -128,7 +1197,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.4;
 }
-.work .namework {
+.bp1-work .bp1-namework {
   background-color    : rgba(255,255,255,0.0);
   width               : 426px;
   height              : 100%;
@@ -138,7 +1207,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .namework-layout-container {
+.bp1-work .bp1-namework-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 294px;
@@ -150,7 +1219,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work .namework .bushi {
+.bp1-work .bp1-namework .bp1-bushi {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -169,7 +1238,7 @@ div {
   text-align          : left;
   line-height         : 251.0px;
 }
-.work .illustration {
+.bp1-work .bp1-illustration {
   background-color    : rgba(255,255,255,0.0);
   width               : auto;
   height              : auto;
@@ -186,7 +1255,7 @@ div {
   text-align          : left;
   line-height         : 41.0px;
 }
-.work .illustration-layout-container {
+.bp1-work .bp1-illustration-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 506px;
@@ -198,7 +1267,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work .menu {
+.bp1-work .bp1-menu {
   background-color    : rgba(255,255,255,0.0);
   width               : 76px;
   height              : 100%;
@@ -209,7 +1278,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .menu-layout-container {
+.bp1-work .bp1-menu-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 30px;
@@ -221,7 +1290,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work .menu .background {
+.bp1-work .bp1-menu .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 57px;
@@ -233,7 +1302,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .menu .menu1 {
+.bp1-work .bp1-menu .bp1-menu1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -254,10 +1323,10 @@ div {
   letter-spacing      : 10.5px;
   line-height         : 43.0px;
 }
-.work .menu .menu1:hover {
+.bp1-work .bp1-menu .bp1-menu1:hover {
   transform           : scale(0.9);
 }
-.work .logo {
+.bp1-work .bp1-logo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 55px;
@@ -271,10 +1340,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.work .logo:hover {
+.bp1-work .bp1-logo:hover {
   transform           : scale(0.9);
 }
-.work .logo .background {
+.bp1-work .bp1-logo .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 55px;
@@ -286,7 +1355,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .logo .kseniapavlova {
+.bp1-work .bp1-logo .bp1-kseniapavlova {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : auto;
@@ -305,7 +1374,7 @@ div {
   text-align          : center;
   line-height         : 57.0px;
 }
-.work .viewproject {
+.bp1-work .bp1-viewproject {
   background-color    : rgba(255,255,255,0.0);
   right               : 39px;
   top                 : 30px;
@@ -319,10 +1388,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.work .viewproject:hover {
+.bp1-work .bp1-viewproject:hover {
   transform           : scale(0.9);
 }
-.work .viewproject .background {
+.bp1-work .bp1-viewproject .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 57px;
@@ -334,7 +1403,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .viewproject .viewprojects {
+.bp1-work .bp1-viewproject .bp1-viewprojects {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -354,7 +1423,7 @@ div {
   letter-spacing      : 10.5px;
   line-height         : 43.0px;
 }
-.work .rectangle1 {
+.bp1-work .bp1-rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1673px;
   height              : 852px;
@@ -366,7 +1435,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display2 {
+.bp1-work .bp1-display2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1646px;
   height              : 1072px;
@@ -378,7 +1447,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display2 .bitmap {
+.bp1-work .bp1-display2 .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   position            : absolute;
   top                 : 0px;
@@ -389,7 +1458,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 {
+.bp1-work .bp1-display3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2881px;
   height              : 954px;
@@ -402,7 +1471,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .background {
+.bp1-work .bp1-display3 .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 954px;
@@ -414,7 +1483,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .appletv {
+.bp1-work .bp1-display3 .bp1-appletv {
   background-color    : rgba(255,255,255,0.0);
   top                 : -6px;
   height              : 996px;
@@ -426,7 +1495,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .a3434 {
+.bp1-work .bp1-display3 .bp1-a3434 {
   background-color    : rgba(255,255,255,0.0);
   right               : -252px;
   top                 : 150px;
@@ -438,7 +1507,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group {
+.bp1-work .bp1-display3 .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 147px;
   height              : 599px;
@@ -450,7 +1519,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .rectangle3 {
+.bp1-work .bp1-display3 .bp1-rectangle3 {
   background-color    : rgba(255,255,255,0.0);
   width               : 202px;
   height              : 100%;
@@ -461,7 +1530,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .rectangle3-layout-container {
+.bp1-work .bp1-display3 .bp1-rectangle3-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 306px;
@@ -473,7 +1542,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work .display3 .group2 {
+.bp1-work .bp1-display3 .bp1-group2 {
   background-color    : rgba(255,255,255,0.0);
   width               : 27px;
   height              : 100%;
@@ -483,7 +1552,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2-layout-container {
+.bp1-work .bp1-display3 .bp1-group2-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 225px;
@@ -495,7 +1564,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work .display3 .group2 .path {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 10px;
@@ -507,7 +1576,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path1 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -519,7 +1588,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path2 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 8px;
   height              : 10px;
@@ -531,7 +1600,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path3 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : 24px;
@@ -543,7 +1612,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path4 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 44px;
   height              : 11px;
@@ -555,7 +1624,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path5 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 52px;
   height              : 11px;
@@ -567,7 +1636,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path6 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 43px;
   height              : 21px;
@@ -579,7 +1648,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path7 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 62px;
   height              : 22px;
@@ -591,7 +1660,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path8 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 88px;
   height              : 15px;
@@ -603,7 +1672,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path9 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 102px;
   height              : 22px;
@@ -615,7 +1684,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path10 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 126px;
   height              : 12px;
@@ -627,7 +1696,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path11 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 139px;
   height              : 26px;
@@ -639,7 +1708,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path12 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path12 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 143px;
   height              : 10px;
@@ -651,7 +1720,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path13 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path13 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 147px;
   height              : 9px;
@@ -663,7 +1732,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path14 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path14 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 150px;
   height              : 9px;
@@ -675,7 +1744,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path15 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path15 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 147px;
   height              : 10px;
@@ -687,7 +1756,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path16 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path16 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 153px;
   height              : 9px;
@@ -699,7 +1768,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path17 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path17 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 151px;
   height              : 9px;
@@ -711,7 +1780,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path18 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path18 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 154px;
   height              : 9px;
@@ -723,7 +1792,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path19 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path19 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 159px;
   height              : 26px;
@@ -735,7 +1804,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path20 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path20 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 167px;
   height              : 9px;
@@ -747,7 +1816,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path21 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path21 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 169px;
   height              : 8px;
@@ -759,7 +1828,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path22 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path22 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 167px;
   height              : 9px;
@@ -771,7 +1840,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path23 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path23 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 169px;
   height              : 9px;
@@ -783,7 +1852,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path24 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path24 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 179px;
   height              : 26px;
@@ -795,7 +1864,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path25 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path25 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 184px;
   height              : 9px;
@@ -807,7 +1876,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path26 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path26 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 185px;
   height              : 8px;
@@ -819,7 +1888,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path27 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path27 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 185px;
   height              : 9px;
@@ -831,7 +1900,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path28 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path28 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 191px;
   height              : 9px;
@@ -843,7 +1912,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path29 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path29 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 204px;
   height              : 11px;
@@ -855,7 +1924,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path30 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path30 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 201px;
   height              : 19px;
@@ -867,7 +1936,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path31 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path31 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 208px;
   height              : 15px;
@@ -879,7 +1948,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path32 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path32 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 212px;
   height              : 9px;
@@ -891,7 +1960,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path33 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path33 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 222px;
   height              : 20px;
@@ -903,7 +1972,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path34 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path34 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 225px;
   height              : 14px;
@@ -915,7 +1984,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path35 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path35 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 241px;
   height              : 21px;
@@ -927,7 +1996,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path36 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path36 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 242px;
   height              : 21px;
@@ -939,7 +2008,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path37 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path37 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 251px;
   height              : 9px;
@@ -951,7 +2020,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path38 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path38 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 259px;
   height              : 24px;
@@ -963,7 +2032,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path39 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path39 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 262px;
   height              : 11px;
@@ -975,7 +2044,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path40 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 265px;
   height              : 12px;
@@ -987,7 +2056,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path41 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path41 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 270px;
   height              : 11px;
@@ -999,7 +2068,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path42 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path42 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 279px;
   height              : 25px;
@@ -1011,7 +2080,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path43 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path43 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 287px;
   height              : 11px;
@@ -1023,7 +2092,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path44 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path44 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 280px;
   height              : 21px;
@@ -1035,7 +2104,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path45 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path45 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 286px;
   height              : 10px;
@@ -1047,7 +2116,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path46 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path46 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 289px;
   height              : 10px;
@@ -1059,7 +2128,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path47 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path47 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 304px;
   height              : 10px;
@@ -1071,7 +2140,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path48 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path48 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 304px;
   height              : 11px;
@@ -1083,7 +2152,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path49 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path49 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 301px;
   height              : 22px;
@@ -1095,7 +2164,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path50 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path50 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 321px;
   height              : 21px;
@@ -1107,7 +2176,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path51 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path51 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 322px;
   height              : 20px;
@@ -1119,7 +2188,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path52 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path52 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 331px;
   height              : 9px;
@@ -1131,7 +2200,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path53 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path53 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 343px;
   height              : 11px;
@@ -1143,7 +2212,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path54 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path54 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 340px;
   height              : 19px;
@@ -1155,7 +2224,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path55 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path55 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 347px;
   height              : 16px;
@@ -1167,7 +2236,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path56 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path56 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 351px;
   height              : 9px;
@@ -1179,7 +2248,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path57 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path57 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 360px;
   height              : 22px;
@@ -1191,7 +2260,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path58 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path58 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 391px;
   height              : 12px;
@@ -1203,7 +2272,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path59 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path59 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 400px;
   height              : 10px;
@@ -1215,7 +2284,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path60 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path60 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 398px;
   height              : 26px;
@@ -1227,7 +2296,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path61 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path61 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 405px;
   height              : 10px;
@@ -1239,7 +2308,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path62 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path62 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 418px;
   height              : 25px;
@@ -1251,7 +2320,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path63 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path63 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 441px;
   height              : 20px;
@@ -1263,7 +2332,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path64 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path64 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 443px;
   height              : 14px;
@@ -1275,7 +2344,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path65 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path65 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 457px;
   height              : 22px;
@@ -1287,7 +2356,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path66 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path66 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 460px;
   height              : 10px;
@@ -1299,7 +2368,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path67 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path67 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 472px;
   height              : 11px;
@@ -1311,7 +2380,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path68 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path68 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 464px;
   height              : 15px;
@@ -1323,7 +2392,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path69 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path69 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 464px;
   height              : 9px;
@@ -1335,7 +2404,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path70 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path70 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 466px;
   height              : 10px;
@@ -1347,7 +2416,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path71 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path71 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 469px;
   height              : 9px;
@@ -1359,7 +2428,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path72 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path72 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 480px;
   height              : 10px;
@@ -1371,7 +2440,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path73 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path73 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 481px;
   height              : 11px;
@@ -1383,7 +2452,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path74 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path74 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 484px;
   height              : 11px;
@@ -1395,7 +2464,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path75 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path75 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 478px;
   height              : 23px;
@@ -1407,7 +2476,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .display3 .group2 .path76 {
+.bp1-work .bp1-display3 .bp1-group2 .bp1-path76 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 490px;
   height              : 11px;
@@ -1419,7 +2488,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .rectangle2 {
+.bp1-work .bp1-rectangle2 {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 960px;
   height              : 960px;
@@ -1431,7 +2500,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .downinteraction {
+.bp1-work .bp1-downinteraction {
   background-color    : rgba(255,255,255,0.0);
   top                 : 608px;
   height              : 105px;
@@ -1444,7 +2513,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .downinteraction .background {
+.bp1-work .bp1-downinteraction .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -1456,7 +2525,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .downinteraction .group {
+.bp1-work .bp1-downinteraction .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -1468,7 +2537,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .downinteraction .group .path40 {
+.bp1-work .bp1-downinteraction .bp1-group .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -1480,7 +2549,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .downinteraction .group .triangle {
+.bp1-work .bp1-downinteraction .bp1-group .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -1492,7 +2561,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.work .group4 {
+.bp1-work .bp1-group4 {
   background-color    : rgba(255,255,255,0.0);
   width               : 832px;
   height              : 100%;
@@ -1502,7 +2571,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .group4-layout-container {
+.bp1-work .bp1-group4-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 1238px;
@@ -1514,7 +2583,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work .group4 .group2 {
+.bp1-work .bp1-group4 .bp1-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 319px;
@@ -1526,7 +2595,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .group4 .group2 .bushi {
+.bp1-work .bp1-group4 .bp1-group2 .bp1-bushi {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1544,7 +2613,7 @@ div {
   letter-spacing      : 2.0px;
   line-height         : 72.0px;
 }
-.work .group4 .group2 .thisillustrationwa {
+.bp1-work .bp1-group4 .bp1-group2 .bp1-thisillustrationwa {
   background-color    : rgba(255,255,255,0.0);
   top                 : 99px;
   height              : auto;
@@ -1561,7 +2630,7 @@ div {
   text-align          : left;
   line-height         : 55.0px;
 }
-.work .group4 .group3 {
+.bp1-work .bp1-group4 .bp1-group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 359px;
   height              : 46px;
@@ -1574,11 +2643,11 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-in-out;
 }
-.work .group4 .group3:hover {
+.bp1-work .bp1-group4 .bp1-group3:hover {
   transform           : translate(0, -5px);
   box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
-.work .group4 .group3 .rectangle3 {
+.bp1-work .bp1-group4 .bp1-group3 .bp1-rectangle3 {
   background-color    : rgba(13, 13, 11, 1.0);
   top                 : 0px;
   height              : 46px;
@@ -1590,7 +2659,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .group4 .group3 .buy {
+.bp1-work .bp1-group4 .bp1-group3 .bp1-buy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 5px;
   height              : auto;
@@ -1608,13 +2677,13 @@ div {
   letter-spacing      : 3.01px;
   line-height         : 37.0px;
 }
-.work .group4 .group3 .buy .span1 {
+.bp1-work .bp1-group4 .bp1-group3 .bp1-buy .bp1-span1 {
   
 }
-.work .group4 .group3 .buy .span2 {
+.bp1-work .bp1-group4 .bp1-group3 .bp1-buy .bp1-span2 {
   letter-spacing      : 4.51px;
 }
-.work .previous {
+.bp1-work .bp1-previous {
   background-color    : rgba(255,255,255,0.0);
   top                 : 366px;
   height              : 100px;
@@ -1627,7 +2696,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .previous .background {
+.bp1-work .bp1-previous .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100px;
@@ -1639,7 +2708,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .previous .rectangle3 {
+.bp1-work .bp1-previous .bp1-rectangle3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 118px;
@@ -1651,7 +2720,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .previous .group {
+.bp1-work .bp1-previous .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 101px;
@@ -1663,7 +2732,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .previous .group .line2 {
+.bp1-work .bp1-previous .bp1-group .bp1-line2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 42.57%;
   height              : 2.97%;
@@ -1675,7 +2744,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .previous .group .prev {
+.bp1-work .bp1-previous .bp1-group .bp1-prev {
   background-color    : rgba(255,255,255,0.0);
   right               : -24.27%;
   top                 : calc(50.00% - 26px);
@@ -1695,7 +2764,7 @@ div {
   letter-spacing      : 13.0px;
   line-height         : 51.0px;
 }
-.work .previous .downinteraction1 {
+.bp1-work .bp1-previous .bp1-downinteraction1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 105px;
@@ -1708,7 +2777,7 @@ div {
   -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
   transform           : rotate(90deg);
 }
-.work .previous .downinteraction1 .background1 {
+.bp1-work .bp1-previous .bp1-downinteraction1 .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -1720,7 +2789,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .previous .downinteraction1 .group1 {
+.bp1-work .bp1-previous .bp1-downinteraction1 .bp1-group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -1732,7 +2801,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .previous .downinteraction1 .group1 .path40 {
+.bp1-work .bp1-previous .bp1-downinteraction1 .bp1-group1 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -1744,7 +2813,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .previous .downinteraction1 .group1 .triangle {
+.bp1-work .bp1-previous .bp1-downinteraction1 .bp1-group1 .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -1756,7 +2825,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.work .next {
+.bp1-work .bp1-next {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 368px;
@@ -1769,7 +2838,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .next .background {
+.bp1-work .bp1-next .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100px;
@@ -1781,7 +2850,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .next .rectangle3 {
+.bp1-work .bp1-next .bp1-rectangle3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 118px;
@@ -1793,7 +2862,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .next .group {
+.bp1-work .bp1-next .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 99px;
@@ -1805,7 +2874,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .next .group .line2 {
+.bp1-work .bp1-next .bp1-group .bp1-line2 {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 42.42%;
@@ -1817,7 +2886,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .next .group .next1 {
+.bp1-work .bp1-next .bp1-group .bp1-next1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 26px);
   height              : 51px;
@@ -1837,7 +2906,7 @@ div {
   letter-spacing      : 13.0px;
   line-height         : 51.0px;
 }
-.work .next .downinteraction1 {
+.bp1-work .bp1-next .bp1-downinteraction1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -9px;
   height              : 105px;
@@ -1850,7 +2919,7 @@ div {
   -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
   transform           : rotate(-90deg);
 }
-.work .next .downinteraction1 .background1 {
+.bp1-work .bp1-next .bp1-downinteraction1 .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 105px;
@@ -1862,7 +2931,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .next .downinteraction1 .group1 {
+.bp1-work .bp1-next .bp1-downinteraction1 .bp1-group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
@@ -1874,7 +2943,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .next .downinteraction1 .group1 .path40 {
+.bp1-work .bp1-next .bp1-downinteraction1 .bp1-group1 .bp1-path40 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 71.43%;
@@ -1886,7 +2955,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .next .downinteraction1 .group1 .triangle {
+.bp1-work .bp1-next .bp1-downinteraction1 .bp1-group1 .bp1-triangle {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 4.08%;
   height              : 37.76%;
@@ -1898,7 +2967,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.work .social {
+.bp1-work .bp1-social {
   background-color    : rgba(255,255,255,0.0);
   width               : 193px;
   height              : 100%;
@@ -1909,7 +2978,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social-layout-container {
+.bp1-work .bp1-social-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
@@ -1921,7 +2990,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.work .social .background {
+.bp1-work .bp1-social .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1933,7 +3002,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social .group5 {
+.bp1-work .bp1-social .bp1-group5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1945,7 +3014,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social .group5 .bitmap {
+.bp1-work .bp1-social .bp1-group5 .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1957,7 +3026,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social .group5 .bitmap1 {
+.bp1-work .bp1-social .bp1-group5 .bp1-bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -1969,7 +3038,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social .group6 {
+.bp1-work .bp1-social .bp1-group6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1981,7 +3050,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social .group6 .bitmap {
+.bp1-work .bp1-social .bp1-group6 .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1993,7 +3062,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social .group6 .bitmap1 {
+.bp1-work .bp1-social .bp1-group6 .bp1-bitmap1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -2005,7 +3074,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social .group7 {
+.bp1-work .bp1-social .bp1-group7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 19px;
@@ -2017,7 +3086,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social .group7 .shape {
+.bp1-work .bp1-social .bp1-group7 .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -2029,7 +3098,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.work .social .group7 .shape1 {
+.bp1-work .bp1-social .bp1-group7 .bp1-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -2119,4 +3188,1104 @@ div {
   {
       opacity: 1;
     }
+}
+.bp3-worktablet {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 2567px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-worktablet .bp3-backgroundwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1024px;
+  width               : calc(100.00% + 269px);
+  position            : absolute;
+  margin              : 0;
+  left                : -135px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-backgroundwork .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1024px;
+  width               : 1037px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-backgroundwork .bp3-backgroundwork1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1024px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-backgroundwork .bp3-a6 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1209px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-backgroundwork .bp3-a6-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 175px;
+  align-items         : center;
+  height              : 547px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-worktablet .bp3-rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1024px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+}
+.bp3-worktablet .bp3-namework {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 238px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-namework-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 378px;
+  align-items         : center;
+  height              : 144px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-worktablet .bp3-namework .bp3-bushi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 100.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 144.0px;
+}
+.bp3-worktablet .bp3-illustration {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  margin-right        : 13px;
+  height              : auto;
+  pointer-events      : auto;
+  margin-left         : -13px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Unica One", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+}
+.bp3-worktablet .bp3-illustration-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 510px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-worktablet .bp3-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1793px;
+  height              : 852px;
+  width               : calc(100.00% + 56px);
+  position            : absolute;
+  margin              : 0;
+  left                : -28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-display2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 786px;
+  width               : calc(100.00% + 18px);
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-display2 .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  position            : absolute;
+  top                 : 0px;
+  left                : 0px;
+  margin              : 0;
+  width               : 100%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1024px;
+  height              : 757px;
+  width               : calc(100.00% + 204px);
+  position            : absolute;
+  margin              : 0;
+  left                : -102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-downinteraction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 608px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 16px);
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-downinteraction .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-downinteraction .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-downinteraction .bp3-group .bp3-path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71.43%;
+  width               : 11.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 44.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-downinteraction .bp3-group .bp3-triangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.08%;
+  height              : 37.76%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.bp3-worktablet .bp3-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 569px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-group4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1131px;
+  align-items         : center;
+  height              : 537px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-worktablet .bp3-group4 .bp3-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 441px;
+  width               : 569px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-group4 .bp3-group2 .bp3-bushi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProSemiBold", Helvetica, Arial, serif;
+  font-size           : 50.0px;
+  color               : rgba(60, 60, 60, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.67px;
+  line-height         : 61.0px;
+}
+.bp3-worktablet .bp3-group4 .bp3-group2 .bp3-thisillustrationwa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : auto;
+  width               : 569px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(60, 60, 60, 1.0);
+  text-align          : left;
+  line-height         : 55.0px;
+}
+.bp3-worktablet .bp3-group4 .bp3-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 491px;
+  height              : 46px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 220px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-worktablet .bp3-group4 .bp3-group3:hover {
+  transform           : translate(0, -5px);
+  box-shadow          : 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.bp3-worktablet .bp3-group4 .bp3-group3 .bp3-rectangle3 {
+  background-color    : rgba(13, 13, 11, 1.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-group4 .bp3-group3 .bp3-buy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SofiaProRegular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.01px;
+  line-height         : 37.0px;
+}
+.bp3-worktablet .bp3-group4 .bp3-group3 .bp3-buy .bp3-span1 {
+  
+}
+.bp3-worktablet .bp3-group4 .bp3-group3 .bp3-buy .bp3-span2 {
+  letter-spacing      : 4.51px;
+}
+.bp3-worktablet .bp3-social {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 193px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 30px;
+  height              : 26px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-worktablet .bp3-social .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social .bp3-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social .bp3-group5 .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social .bp3-group5 .bp3-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social .bp3-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social .bp3-group6 .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social .bp3-group6 .bp3-bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social .bp3-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social .bp3-group7 .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-social .bp3-group7 .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-previous {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 460px;
+  height              : 105px;
+  width               : 99px;
+  position            : fixed;
+  margin              : 0;
+  left                : -20px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-previous .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-previous .bp3-rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 124px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-previous .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 86px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-previous .bp3-group .bp3-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40.70%;
+  height              : 3.49%;
+  width               : 42.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-previous .bp3-group .bp3-prev {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -21.88%;
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 88.54%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp3-worktablet .bp3-next {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -10px;
+  top                 : 460px;
+  height              : 105px;
+  width               : 105px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-next .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-next .bp3-rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -9px;
+  height              : 124px;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : -111px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-next .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 85px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-next .bp3-group .bp3-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 42.35%;
+  height              : 3.53%;
+  width               : 43.27%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-next .bp3-group .bp3-next1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 22px);
+  height              : 43px;
+  width               : 80.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : -19.23%;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 11.14px;
+  line-height         : 43.0px;
+}
+.bp3-worktablet .bp3-logo {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 172px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-worktablet .bp3-logo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 30px;
+  align-items         : center;
+  height              : 55px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-worktablet .bp3-logo:hover {
+  transform           : scale(0.9);
+}
+.bp3-worktablet .bp3-logo .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-logo .bp3-kseniapavlova {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Teko", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 51.0px;
+}
+.bp3-worktablet .bp3-logo .bp3-kseniapavlova-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-worktablet .bp3-viewproject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 46px;
+  width               : 46px;
+  position            : fixed;
+  margin              : 0;
+  left                : 38px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-worktablet .bp3-viewproject:hover {
+  transform           : scale(0.9);
+}
+.bp3-worktablet .bp3-viewproject .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 .bp3-rectangle9 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 .bp3-rectangle11 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 .bp3-rectangle21 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 .bp3-rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 .bp3-rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 .bp3-rectangle5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 .bp3-rectangle6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 .bp3-rectangle7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-viewproject .bp3-group37 .bp3-rectangle8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 42px;
+  top                 : 42px;
+  height              : 40px;
+  width               : 40px;
+  position            : fixed;
+  margin              : 0;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-worktablet .bp3-menu:hover {
+  transform           : scale(0.9);
+}
+.bp3-worktablet .bp3-menu .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-menu .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-worktablet .bp3-menu .bp3-group .bp3-line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 19px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp3-worktablet .bp3-menu .bp3-group .bp3-line31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp3-worktablet .bp3-menu .bp3-group .bp3-line32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 767px) {
+  .bp2-workiphonese {
+    display             : block;
+  }
+  .bp3-worktablet {
+    display             : none;
+  }
+  .bp1-work {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp2-workiphonese {
+    display             : none;
+  }
+  .bp3-worktablet {
+    display             : block;
+  }
+  .bp1-work {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bp2-workiphonese {
+    display             : none;
+  }
+  .bp3-worktablet {
+    display             : none;
+  }
+  .bp1-work {
+    display             : block;
+  }
 }
